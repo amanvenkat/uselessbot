@@ -8,7 +8,7 @@ module.exports = async (bot, guild) => {
 Hello, am Hydra+ thank you for inviting me to your server.
 To see the list of commands type [\`h help\`](https://docs.brandondev.xyz/)
 **Links** :
-[\`Support Server\`](https://discord.gg/XqezQaK) | [\`Invite Me\`](https://discord.com/oauth2/authorize?client_id=679710920334639115&permissions=8&scope=bot) | [\`Vote For Me\`](https://top.gg/bot/679710920334639115/vote) | [\`Documentation\`](https://docs.brandondev.xyz/)
+[\`Support Server\`](https://discord.gg/aj3hz97m5U) | [\`Invite Me\`](https://discord.com/oauth2/authorize?client_id=808350130352554004&scope=bot&permissions=2147483647)
 `)
 		   guild.systemChannel.send(embed)
 
@@ -26,9 +26,9 @@ guild.channels.cache.forEach((channel) => {
         .setDescription(`
 \n
 Hello, am Hydra+ thank you for inviting me to your server.
-To see the list of commands type [\`h help\`](https://docs.brandondev.xyz/)
+To see the list of commands type [\`do help\`](https://docs.brandondev.xyz/)
 **Links** :
-[\`Support Server\`](https://discord.gg/XqezQaK) | [\`Invite Me\`](https://discord.com/oauth2/authorize?client_id=679710920334639115&permissions=8&scope=bot) | [\`Vote For Me\`](https://top.gg/bot/679710920334639115/vote) | [\`Documentation\`](https://docs.brandondev.xyz/)
+[\`Support Server\`](https://discord.gg/aj3hz97m5U) | [\`Invite Me\`](https://discord.com/oauth2/authorize?client_id=808350130352554004&scope=bot&permissions=2147483647) 
 `)
   defaultChannel.send(embed)
 	

@@ -66,7 +66,7 @@ module.exports.run = async (bot, message, args) => {
         const lostEmbed = new MessageEmbed()
         .setColor('RED')
         .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
-        .setFooter("https://top.gg/bot/679710920334639115/vote")
+        .setFooter(`[vote here](https://top.gg/bot/805507397136154664/vote)`)
         .setDescription(`Dice V2 | Player **${member.user.username}** \n\nHydra+ rolled: \`${botRoll}\` \n${member.user.username} rolled: \`${userChoice}\`\n\nLost: **${lostCoins.toLocaleString()}** coins`)
         message.channel.send(lostEmbed);
     }
