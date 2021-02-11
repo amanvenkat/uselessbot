@@ -35,5 +35,5 @@ To see the list of commands type [\`h help\`](https://docs.brandondev.xyz/)
 	
 	
 	
- await bot.dbl.postStats(bot.guilds.cache.size);
+ //await bot.dbl.postStats(bot.guilds.cache.size);
 }

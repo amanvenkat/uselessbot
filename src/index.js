@@ -10,7 +10,7 @@ bot.login(process.env.TOKEN);
 bot.commands = new Collection();
 bot.aliases = new Collection();
 bot.cooldowns = new Collection();
-bot.dbl = dbl;
+//bot.dbl = dbl;
 
 require('./utils/handlers/command')(bot);
 require('./utils/handlers/event')(bot);
