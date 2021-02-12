@@ -34,13 +34,13 @@ module.exports.run = async (bot, message, args) => {
             .setDescription(`${i} **${member.user.username}** : Command Infomation 
 
   🔴Red | Multiplier: x1.5
-  \`h roulette red (amount)\`
+  \`do roulette red (amount)\`
   ⚫Black | Multiplier: x2
-  \`h roulette black (amount)\`
+  \`do roulette black (amount)\`
   🟡 Yellow | Multiplier: x2.5
-  \`h roulette yellow (amount)\`
+  \`do roulette yellow (amount)\`
   🟢Green | Multiplier: x5
-  \`h roulette green (amount)\`
+  \`do roulette green (amount)\`
 `);
 /*
 🔴Red | Multiplier: x1.5
