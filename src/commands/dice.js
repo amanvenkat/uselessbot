@@ -57,7 +57,7 @@ module.exports.run = async (bot, message, args) => {
         .setColor('YELLOW')
         .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
         .setFooter("\`[vote](https://top.gg/bot/805507397136154664/vote)\`")
-        .setDescription(`Dice V2 | Player **${member.user.username}** \n\nMedu Wada rolled: \`${botRoll}\` \n${member.user.username} rolled: \`${userChoice}\`\n\n**${member.user.username}** & **Hydra+**: Tied\n\nLost: **${tieCoins.toLocaleString()}** coins`)
+        .setDescription(`Dice V2 | Player **${member.user.username}** \n\nMedu Wada rolled: \`${botRoll}\` \n${member.user.username} rolled: \`${userChoice}\`\n\n**${member.user.username}** & **MeduWada**: Tied\n\nLost: **${tieCoins.toLocaleString()}** coins`)
         message.channel.send(tieEmbed);
     } else if (botRoll > userChoice) {
         const lostCoins = (betAmount);
