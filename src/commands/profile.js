@@ -38,7 +38,7 @@ module.exports.config = {
     usage: 'h profile', // Usage
     botPerms: [], // Bot permissions needed to run command. Leave empty if nothing.
     userPerms: [], // User permissions needed to run command. Leave empty if nothing.
-    aliases: ['userinfo'], // Aliases 
+    aliases: ['userinfo', 'prof'], // Aliases 
     bankSpace: 2, // Amount of bank space to give when command is used.
     cooldown: 3 // Command Cooldown
 }
