@@ -1,5 +1,5 @@
 const { MessageEmbed, Message } = require('discord.js');
-const i = '<:infomation:779736273639440394>'
+const i = 'ℹ'
 const x = '<:bigx:779736072367505449>'
 const tick = '<:bigtick:779736050892931082>'
 const s = '<:hydrashild:780113155744595978>'

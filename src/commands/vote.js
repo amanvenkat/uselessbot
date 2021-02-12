@@ -1,10 +1,10 @@
 const { MessageEmbed } = require("discord.js");
-const i = '<:infomation:779736273639440394>'
+const i = 'ℹ'
 module.exports.run = async (bot, message, args) => {
     const usertag = message.member;
     let begembed = new MessageEmbed()
     .setColor("BLUE")
-    .setDescription(`${i} **${usertag.user.username}** : Vote For Hydra+ Here : \n https://top.gg/bot/679710920334639115/vote`)
+    .setDescription(`${i} **${usertag.user.username}** : Vote For Medu Wada Here : \n https://top.gg/bot/679710920334639115/vote`)
     message.channel.send(begembed).catch();
   //message.channel.send(`Vote For Hydra+ Here : \n https://top.gg/bot/679710920334639115/vote`);
 }

@@ -1,5 +1,5 @@
 const { MessageEmbed } = require("discord.js")
-const i = '<:infomation:779736273639440394>'
+const i = 'ℹ'
 module.exports.run = async (bot, message, args) => {
     const Embed = new MessageEmbed()
     .setDescription(`${i} Hydra+ Live Stats :`)

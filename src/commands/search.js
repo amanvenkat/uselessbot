@@ -1,5 +1,5 @@
 const { MessageEmbed } = require("discord.js");
-const i = '<:info:688057843558908013>'
+const i = 'ℹ'
 const tick = '<:bigtick:779736050892931082>'
 module.exports.run = async (bot, message, args) => {
   
