@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const prettyMilliseconds = require('pretty-ms');
 const prefix = 'do ';
-const cd = '<:hazzered:779736248813879296>'
+const cd = '⚠'
 module.exports = async (bot, message) => {
     const member = message.member;
     if (message.author.bot || message.channel.type === 'dm') return;
