@@ -149,7 +149,7 @@ module.exports.run = async (bot, message, args, ) => {
                 if (card.suit == "diamonds") cardsMsg += "♦"
                 if (card.suit == "spades") cardsMsg += "♠"
                 if (card.suit == "clubs") cardsMsg += "♣"
-                cardsMsg += "`](https://docs.brandondev.xyz/) "
+                cardsMsg += "`] "
             });
             cardsMsg += "\n**Total** : " + player.score.toString()
 
@@ -160,7 +160,7 @@ module.exports.run = async (bot, message, args, ) => {
                 if (dealer.cards[0].suit == "diamonds") dealerMsg += "♦"
                 if (dealer.cards[0].suit == "spades") dealerMsg += "♠"
                 if (dealer.cards[0].suit == "clubs") dealerMsg += "♣"
-                dealerMsg += " ? ?`](https://docs.brandondev.xyz/)"
+                dealerMsg += " ? ?`]"
             } else {
                 dealerMsg = "";
                 dealer.cards.forEach(function(card) {
@@ -169,7 +169,7 @@ module.exports.run = async (bot, message, args, ) => {
                     if (card.suit == "diamonds") dealerMsg += "♦"
                     if (card.suit == "spades") dealerMsg += "♠"
                     if (card.suit == "clubs") dealerMsg += "♣"
-                    dealerMsg += "`](https://docs.brandondev.xyz/) "
+                    dealerMsg += "`] "
                 });
                 dealerMsg += "\n**Total** : " + dealer.score.toString()
             }
@@ -259,7 +259,7 @@ module.exports.run = async (bot, message, args, ) => {
         async function loop() {
             if (gameOver) return;
 
-            endMsg("Info", "Hit = [\`h\`](https://docs.brandondev.xyz/)  |  Stand = [\`s\`](https://docs.brandondev.xyz/)  \nOr [\`cancel\`](https://docs.brandondev.xyz/) but you will lose your bet ? ", false)
+            endMsg("Info", "Hit = [\`h\`]  |  Stand = [\`s\`]  \nOr [\`cancel\`] but you will lose your bet ? ", false)
 
             let filter = m => m.author.id === message.author.id;
             message.channel.awaitMessages(filter, {
