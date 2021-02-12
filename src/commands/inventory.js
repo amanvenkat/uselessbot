@@ -19,7 +19,7 @@ module.exports.run = async (bot, message, args) => {
     const items = item.map(x => `${x.description}\n  \`id: ${x.name} \` x ${x.amount.toLocaleString()}`);
     const embed = new MessageEmbed()
         .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
-        .setFooter("https://top.gg/bot/679710920334639115/vote")
+        .setFooter("\`[vote](https://top.gg/bot/805507397136154664/vote)\`")
         .setTitle(`${message.author.username}'s Inventory`)
         .setDescription(`${items.join('\n\n')}`)
         .setFooter(`Page ${args[0] || 1} of ${page}`)
@@ -34,7 +34,7 @@ module.exports.config = {
     botPerms: [], // Bot permissions needed to run command. Leave empty if nothing.
     userPerms: [], // User permissions needed to run command. Leave empty if nothing.
     aliases: ['inv'], // Aliases 
-    bankSpace: 1, // Amount of bank space to give when command is used.
+    bankSpace: 5, // Amount of bank space to give when command is used.
     cooldown: 5 // Command Cooldown
 
 }

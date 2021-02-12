@@ -5,10 +5,10 @@ module.exports = async (bot, guild) => {
         .setColor("#8C00FF")
         .setDescription(`
 \n
-Hello, am Hydra+ thank you for inviting me to your server.
-To see the list of commands type [\`h help\`](https://docs.brandondev.xyz/)
+Hello, I am Medu Wada thank you for inviting me to your server.
+To see the list of commands type [\`do help\`]
 **Links** :
-[\`Support Server\`](https://discord.gg/aj3hz97m5U) | [\`Invite Me\`](https://discord.com/oauth2/authorize?client_id=808350130352554004&scope=bot&permissions=2147483647)
+[\`Support Server\`](https://discord.gg/eSmVBGRfqY) | [\`Invite Me\`](https://discord.com/oauth2/authorize?client_id=808350130352554004&scope=bot&permissions=2147483647)
 `)
 		   guild.systemChannel.send(embed)
 
@@ -25,10 +25,10 @@ guild.channels.cache.forEach((channel) => {
         .setColor("#8C00FF")
         .setDescription(`
 \n
-Hello, am Hydra+ thank you for inviting me to your server.
-To see the list of commands type [\`do help\`](https://docs.brandondev.xyz/)
+Hello, I am Medu Wada thank you for inviting me to your server.
+To see the list of commands type [\`do help\`]
 **Links** :
-[\`Support Server\`](https://discord.gg/aj3hz97m5U) | [\`Invite Me\`](https://discord.com/oauth2/authorize?client_id=808350130352554004&scope=bot&permissions=2147483647) 
+[\`Support Server\`](https://discord.gg/eSmVBGRfqY) | [\`Invite Me\`](https://discord.com/oauth2/authorize?client_id=808350130352554004&scope=bot&permissions=2147483647) 
 `)
   defaultChannel.send(embed)
 	

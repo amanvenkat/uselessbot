@@ -1,23 +1,23 @@
-const lock = '<:shinelock:780056966604390430>'
-const rifle = '<:HYDRA_RIFLE:780431726563819530>'
-const axe = '<:HYDRA_AXE:780435571700138024>'
-const pick = '<:HYRDA_PICKAXE:780453284284596244>'
-const rc = '<a:HYDRA_RAINBOW_COIN_GIF:780463422927536128>' //RAINBOW
-const gc = '<a:HYDRA_GOLD_COIN_GIF:780447095878189057>' // :HYDRA_GOLD_COIN_GIF:
-const sc = '<a:HYDRA_SILVER_COIN_GIF:780447045126455326>' // :HYDRA_SILVER_COIN_GIF:
-const bc = '<a:HYDRA_BRONZE_COIN_GIF:780446979452698674>' // :HYDRA_BRONZE_COIN_GIF: 
-const ht = '<a:HYDRA_THROPHY:780446245612945409>' // :HYDRA_THROPHY:
-const hc = '<:HYDRA_CLOVER:780473481590210560>'
-const junkemoji = '<:HYDRA_JUNK:781846282473046016>'
-const legfish = '<:HYDRA_FISH_LEG:781936373325365268>'
-const hd = '<:HYDRA_D:782294387676938280>'
-const hr = '<:HYDRA_RUBY:782295231734743070>'
-const hg = '<:HYDRA_GADE:782295694806745139>'
-const ha = '<:HYDRA_AMETHYST:782298032624107550>'
-const hp = '<:HYDRA_PRECIOUS:782300656362979379>'
+const lock = '🔒'
+const pistol = '🔫'
+const axe = '🪓'
+const pick = '⛏'
+const rc = '💠' //RAINBOW
+const gc = '🥇' // :HYDRA_GOLD_COIN_GIF:
+const sc = '🥈' // :HYDRA_SILVER_COIN_GIF:
+const bc = '🥉' // :HYDRA_BRONZE_COIN_GIF: 
+const ht = '🏆' // :HYDRA_THROPHY:
+const hc = '🍀'
+const junkemoji = '📦'
+const legfish = '🦈'
+const hd = '💎'
+const hr = '♦'
+const hg = '🔰'
+const ha = '🔷'
+const hp = '💫'
 const array = [{
     name: 'cookie',
-    description: '🍪 **Cookie**\na tasty snack.',
+    description: '🍪 **Cookie**\nA tasty snack.',
     canUse: true,
     canBuy: true,
     displayOnShop: true,
@@ -154,8 +154,8 @@ const array = [{
     }
 },
 {
-    name: 'rifle',
-    description: `${rifle} **Rifle**\nuse this to kills animals`,
+    name: 'pistol',
+    description: `${pistol} **Pistol**\nUse this to hunt animals`,
     canUse: false,
     canBuy: true,
     displayOnShop: true,
@@ -427,8 +427,8 @@ const array = [{
     }
 },
 {
-    name: 'rainbowcoin',
-    description: `${rc} **Hydra Rainbow Coin**`,
+    name: 'supercoin',
+    description: `${rc} **Medu Wada Super Coin**`,
     canUse: false,
     canBuy: true,
     displayOnShop: true,
@@ -441,7 +441,7 @@ const array = [{
 },
 {
     name: 'goldcoin',
-    description: `${gc} **Hydra Gold Coin**`,
+    description: `${gc} **Medu Wada Gold Coin**`,
     canUse: false,
     canBuy: true,
     displayOnShop: true,
@@ -454,7 +454,7 @@ const array = [{
 },
 {
     name: 'silvercoin',
-    description: `${sc} **Hydra Silver Coin**`,
+    description: `${sc} **Medu Wada Silver Coin**`,
     canUse: false,
     canBuy: true,
     displayOnShop: true,
@@ -467,7 +467,7 @@ const array = [{
 },
 {
     name: 'bronzecoin',
-    description: `${bc} **Hydra Bronze Coin**`,
+    description: `${bc} **Medu wada Bronze Coin**`,
     canUse: false,
     canBuy: true,
     displayOnShop: true,
@@ -480,7 +480,7 @@ const array = [{
 },
 {
     name: 'trophy',
-    description: `${ht} **Hydra Trophy**`,
+    description: `${ht} **Medu Wada Trophy**`,
     canUse: false,
     canBuy: true,
     displayOnShop: true,

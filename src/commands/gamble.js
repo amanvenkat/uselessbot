@@ -27,9 +27,9 @@ module.exports.run = async (bot, message, args) => {
   
     let coinmin = new MessageEmbed()
     .setColor("RED")
-    .setDescription(`${x} **${member.user.username}** : The minimum you can gamble is \`200\` coins.`);
+    .setDescription(`${x} **${member.user.username}** : The minimum you can gamble is \`100\` coins.`);
 
-           if (betAmount < 200) return message.channel.send(coinmin);
+           if (betAmount < 100) return message.channel.send(coinmin);
     if (betAmount == 'all' || betAmount == 'max') betAmount=userData.coinsInWallet;
     else betAmount=parseInt(args[0]);
   

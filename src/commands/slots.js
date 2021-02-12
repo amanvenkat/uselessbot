@@ -68,7 +68,7 @@ module.exports.run = async (bot, message, args) => {
             .setDescription(`**Slots V2** | Player : **${member.user.username}** \n\n${slotItems[number[0]]} | ${slotItems[number[1]]} | ${slotItems[number[2]]}\n\nWinnings: **${betAmount.toLocaleString()}** coins`)
             .setColor("GREEN")
             .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
-            .setFooter("https://top.gg/bot/679710920334639115/vote")
+            .setFooter("\`[vote](https://top.gg/bot/805507397136154664/vote)\`")
         message.channel.send(slotsEmbed1)
         bot.giveCoins(message.author.id, betAmount)
     } else {
@@ -79,7 +79,7 @@ module.exports.run = async (bot, message, args) => {
             .setDescription(`**Slots V2** | Player : **${member.user.username}** \n\n${slotItems[number[0]]} | ${slotItems[number[1]]} | ${slotItems[number[2]]}\n\nLost: **${lostCoins.toLocaleString()}** coins`)
             .setColor("RED")
             .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
-            .setFooter("https://top.gg/bot/679710920334639115/vote")
+            .setFooter("\`[vote](https://top.gg/bot/805507397136154664/vote)\`")
         message.channel.send(slotsEmbed)
     }
 

@@ -4,9 +4,9 @@ const i = 'ℹ'
 module.exports.run = async (bot, message, args) => {
     const Embed = new MessageEmbed()
     .setDescription(`
-${i} Hydra+ Update Log :
+${i} Medu Wada Update Log :
 
-Date : \`24/11/2020\`
+Date : \`12/02/2021\`
 
 1. All commands have been updated to embeds and added custom emoji's.
 
@@ -20,9 +20,9 @@ Date : \`24/11/2020\`
 
 6. Unfortunately there was a issue with the items in users profiles, as we changed the way the \`Inventory\` command is displayed. Also the users balance's have also been reset.
 
-Date : \`7/12/2020\`
+Date : \`12/02/2021\`
 
-1. Added the command \`h mine\`.
+1. Added the command \`do mine\`.
 `)
     .setColor("BLUE")
     message.channel.send(Embed);

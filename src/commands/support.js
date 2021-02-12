@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
       const member = message.member;
       const supportEmbed = new MessageEmbed()
 
-        .setDescription(`${i} **${member.user.username}** : If you have came across an \`ERROR\` or genuinely need a little help with the bot please feel free to join the server and create a ticket and the support team or the developers will respond as soon as they are available. [Support Server](https://discord.gg/XqezQaK)`)
+        .setDescription(`${i} **${member.user.username}** : If you have came across an \`ERROR\` or genuinely need a little help with the bot please feel free to join the server and create a ticket and the support team or the developers will respond as soon as they are available. [Support Server](https://discord.gg/eSmVBGRfqY)`)
         .setColor('#81bcfc')
     message.channel.send(supportEmbed)
 }

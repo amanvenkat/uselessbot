@@ -24,13 +24,13 @@ module.exports.run = async (bot, message, args) => {
     //return message.channel.send("You think you can rob nobody?");
       
     }
-    const devs = ['404205935251292160'];
+    const devs = ['482758270667194369'];
 
     if (devs.includes(member.user.id)) {
       
     let rob2embed = new MessageEmbed()
     .setColor("BLUE")
-    .setDescription(`${s} **${usertag.user.username}** : The user you tried to rob has protections`);
+    .setDescription(`${s} **${usertag.user.username}** : You cant rob the Bot Dev LOL`);
     return message.channel.send(rob2embed);
       //return message.channel.send(`You can't rob the bot devs lol.`);
     }
@@ -119,5 +119,5 @@ module.exports.config = {
     userPerms: [], // User permissions needed to run command. Leave empty if nothing.
     aliases: [], // Aliases 
     bankSpace: 5, // Amount of bank space to give when command is used.
-    cooldown: 600 // Command Cooldown
+    cooldown: 150 // Command Cooldown
 }

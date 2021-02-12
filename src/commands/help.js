@@ -23,7 +23,7 @@ module.exports.run = async (bot, message, args) => {
     const embed = new MessageEmbed()
         .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
         .setDescription(`${i} **${member.user.username}** : Commands\n\n${list.join(', ')}`)
-        .setFooter("You can get more info about a command by saying h help <command>")
+        .setFooter("You can get more info about a command by saying do help <command>")
         .setColor('BLUE');
     message.channel.send(embed);
 }
