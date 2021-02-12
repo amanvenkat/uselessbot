@@ -181,7 +181,7 @@ module.exports.run = async (bot, message, args, ) => {
                 .addField('Dealer\'s Cards', dealerMsg)
                 .addField(title, msg)
                 .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
-                .setFooter('Hydra+ .');
+                .setFooter('MeduWada .');
 
             message.channel.send(gambleEmbed);
         }

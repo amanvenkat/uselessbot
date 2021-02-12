@@ -24,9 +24,9 @@ module.exports.run = async (bot, message, args) => {
 
     let coinmin = new MessageEmbed()
     .setColor("RED")
-    .setDescription(`${x} **${member.user.username}** : The minimum you can gamble is \`200\` coins.`);
+    .setDescription(`${x} **${member.user.username}** : The minimum you can gamble is \`100\` coins.`);
 
-    if (betAmount < 200) return message.channel.send(coinmin);
+    if (betAmount < 100) return message.channel.send(coinmin);
 
     if (betAmount == 'all' || betAmount == 'max') betAmount=userData.coinsInWallet;
     else betAmount=parseInt(args[0]);
@@ -46,8 +46,8 @@ module.exports.run = async (bot, message, args) => {
         const wonEmbed = new MessageEmbed()
         .setColor('GREEN')
         .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
-        .setFooter("https://top.gg/bot/679710920334639115/vote")
-        .setDescription(`Dice V2 | Player **${member.user.username}** \n\nHydra+ rolled: \`${botRoll}\` \n${member.user.username} rolled: \`${userChoice}\`\n\nWinnings: **${wonCoins.toLocaleString()}** coins`)
+        .setFooter("\`[vote](https://top.gg/bot/805507397136154664/vote)\`")
+        .setDescription(`Dice V2 | Player **${member.user.username}** \n\nMedu Wada rolled: \`${botRoll}\` \n${member.user.username} rolled: \`${userChoice}\`\n\nWinnings: **${wonCoins.toLocaleString()}** coins`)
         message.channel.send(wonEmbed);
     } else if (botRoll == userChoice) {
         const tieCoins = parseInt(betAmount/2);
@@ -56,8 +56,8 @@ module.exports.run = async (bot, message, args) => {
         const tieEmbed = new MessageEmbed()
         .setColor('YELLOW')
         .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
-        .setFooter("https://top.gg/bot/679710920334639115/vote")
-        .setDescription(`Dice V2 | Player **${member.user.username}** \n\nHydra+ rolled: \`${botRoll}\` \n${member.user.username} rolled: \`${userChoice}\`\n\n**${member.user.username}** & **Hydra+**: Tied\n\nLost: **${tieCoins.toLocaleString()}** coins`)
+        .setFooter("\`[vote](https://top.gg/bot/805507397136154664/vote)\`")
+        .setDescription(`Dice V2 | Player **${member.user.username}** \n\nMedu Wada rolled: \`${botRoll}\` \n${member.user.username} rolled: \`${userChoice}\`\n\n**${member.user.username}** & **Hydra+**: Tied\n\nLost: **${tieCoins.toLocaleString()}** coins`)
         message.channel.send(tieEmbed);
     } else if (botRoll > userChoice) {
         const lostCoins = (betAmount);
@@ -66,8 +66,8 @@ module.exports.run = async (bot, message, args) => {
         const lostEmbed = new MessageEmbed()
         .setColor('RED')
         .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
-        .setFooter(`[vote here](https://top.gg/bot/805507397136154664/vote)`)
-        .setDescription(`Dice V2 | Player **${member.user.username}** \n\nHydra+ rolled: \`${botRoll}\` \n${member.user.username} rolled: \`${userChoice}\`\n\nLost: **${lostCoins.toLocaleString()}** coins`)
+        .setFooter("\`[vote](https://top.gg/bot/805507397136154664/vote)\`")
+        .setDescription(`Dice V2 | Player **${member.user.username}** \n\nMedu Wada rolled: \`${botRoll}\` \n${member.user.username} rolled: \`${userChoice}\`\n\nLost: **${lostCoins.toLocaleString()}** coins`)
         message.channel.send(lostEmbed);
     }
 }   

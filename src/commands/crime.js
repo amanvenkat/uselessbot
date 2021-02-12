@@ -7,7 +7,7 @@ module.exports.run = async (bot, message, args) => {
     const usertag = message.member;
     const another = Math.round(Math.random() * 15);
 
-    const random = Math.round(Math.random() * 100);
+    const random = Math.round(Math.random() * 500);
     const randomMessage = [
       `You assassinated **Bill Gates** you was payed ${random.toLocaleString()} coins.`,
       `You stole from a poor old grannie and she only had ${random.toLocaleString()} coins.`,
@@ -37,5 +37,5 @@ module.exports.config = {
     userPerms: [], // User permissions needed to run command. Leave empty if nothing.
     aliases: [], // Aliases 
     bankSpace: 15, // Amount of bank space to give when command is used.
-    cooldown: 45 // Command Cooldown
+    cooldown: 300 // Command Cooldown
 }
