@@ -2,7 +2,7 @@ const { MessageEmbed } = require('discord.js');
 const itemss = require('../utils/items');
 const i = 'ℹ'
 const x = '❌'
-const tick = '<:bigtick:779736050892931082>'
+const tick = '✅'
 const randomPuppy = require('random-puppy')
 
 module.exports.run = async (bot, message, args) => { 

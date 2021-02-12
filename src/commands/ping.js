@@ -1,6 +1,6 @@
 const i = 'ℹ'
 const x = '❌'
-const tick = '<:bigtick:779736050892931082>'
+const tick = '✅'
 module.exports.run = async (bot, message, args) => {
     message.channel.send(`${i} Pinging...`)
     .then(m => m.edit(`${tick} Ping : ${bot.ws.ping} ms`))

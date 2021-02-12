@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 const i = 'ℹ'
-const tick = '<:bigtick:779736050892931082>'
+const tick = '✅'
 module.exports.run = async (bot, message, args) => {
   
     const usertag = message.member;

@@ -2,9 +2,9 @@ const itemss = require('../utils/items');
 const { MessageEmbed } = require("discord.js");
 const i = 'ℹ'
 const x = '❌'
-const tick = '<:bigtick:779736050892931082>'
-const junkemoji = '<:HYDRA_JUNK:781846282473046016>'
-const legfish = '<:HYDRA_FISH_LEG:781936373325365268>'
+const tick = '✅'
+const junkemoji = '📦'
+const legfish = '🦈'
 module.exports.run = async (bot, message, args) => {
   let user = await bot.fetchUser(message.author.id);
 const member = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.member;

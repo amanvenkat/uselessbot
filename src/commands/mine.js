@@ -2,12 +2,12 @@ const itemss = require('../utils/items');
 const { MessageEmbed } = require("discord.js");
 const i = 'ℹ'
 const x = '❌'
-const tick = '<:bigtick:779736050892931082>'
-const hd = '<:HYDRA_D:782294387676938280>'
-const hr = '<:HYDRA_RUBY:782295231734743070>'
-const hg = '<:HYDRA_GADE:782295694806745139>'
-const ha = '<:HYDRA_AMETHYST:782298032624107550>'
-const hp = '<:HYDRA_PRECIOUS:782300656362979379>'
+const tick = '✅'
+const hd = '💎'
+const hr = '♦'
+const hg = '🔰'
+const ha = '🔷'
+const hp = '💫'
 
 module.exports.run = async (bot, message, args) => {
   let user = await bot.fetchUser(message.author.id);

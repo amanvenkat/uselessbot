@@ -1,8 +1,8 @@
 const { MessageEmbed, Message } = require('discord.js');
 const i = 'ℹ'
 const x = '❌'
-const tick = '<:bigtick:779736050892931082>'
-const s = '<:hydrashild:780113155744595978>'
+const tick = '✅'
+const s = '🛡'
 module.exports.run = async (bot, message, args) => {
     const usertag = message.member;
     const user = await bot.fetchUser(message.author.id);
