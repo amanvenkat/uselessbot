@@ -16,7 +16,7 @@ module.exports.run = async (bot, message, args) => {
             .setDescription(`${tick} **${member.user.username}** : Use this command in \`24h\` to claim your daily reward again!`)
             .setColor('GREEN');
         message.channel.send(claimed);
-         user.coinsInWallet += randomNum(1000, 3000);
+         user.coinsInWallet += 3000;
        user.save().then(user.dailyStreak = new Date(Date.now()))
       
     }
