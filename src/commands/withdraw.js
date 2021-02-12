@@ -1,5 +1,5 @@
 const i = 'ℹ'
-const x = '<:bigx:779736072367505449>'
+const x = '❌'
 const tick = '<:bigtick:779736050892931082>'
 const { MessageEmbed } = require('discord.js');  
 

@@ -1,6 +1,6 @@
 const { MessageEmbed, Message } = require('discord.js');
 const i = 'ℹ'
-const x = '<:bigx:779736072367505449>'
+const x = '❌'
 const tick = '<:bigtick:779736050892931082>'
 const s = '<:hydrashild:780113155744595978>'
 module.exports.run = async (bot, message, args) => {

@@ -1,6 +1,6 @@
 const { MessageEmbed } = require('discord.js')
 const i = 'ℹ'
-const x = '<:bigx:779736072367505449>'
+const x = '❌'
 const tick = '<:bigtick:779736050892931082>'
 const dev = '<:discord_bot_dev:482758270667194369>'
 const dg = '<:dg:780426487580852224>'

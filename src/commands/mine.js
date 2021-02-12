@@ -1,7 +1,7 @@
 const itemss = require('../utils/items');
 const { MessageEmbed } = require("discord.js");
 const i = 'ℹ'
-const x = '<:bigx:779736072367505449>'
+const x = '❌'
 const tick = '<:bigtick:779736050892931082>'
 const hd = '<:HYDRA_D:782294387676938280>'
 const hr = '<:HYDRA_RUBY:782295231734743070>'
