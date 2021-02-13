@@ -20,7 +20,7 @@ Date : \`12/02/2021\`
 
 6. Unfortunately there was a issue with the items in users profiles, as we changed the way the \`Inventory\` command is displayed. Also the users balance's have also been reset.
 
-Date : \`12/02/2021\`
+Date : \`13/02/2021\`
 
 1. Added the command \`do mine\`.
 `)
