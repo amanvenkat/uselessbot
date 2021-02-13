@@ -8,14 +8,14 @@ module.exports.run = async (bot, message, args) => {
 const member = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.member;
 
 
-const item = itemss.find(x => x.name.toLowerCase() === 'rifle');  
-let founditem = user.items.find(x => x.name.toLowerCase() === 'rifle');
+const item = itemss.find(x => x.name.toLowerCase() === 'pistol');  
+let founditem = user.items.find(x => x.name.toLowerCase() === 'pistol');
     let array = [];
-    array = user.items.filter(x => x.name !== 'rifle');
+    array = user.items.filter(x => x.name !== 'pistol');
     if (!founditem) {
               let use3embed = new MessageEmbed()
               .setColor("RED")
-              .setDescription(`${x} **${member.user.username}** : You don't own a \`RIFLE\`, you need to buy one to use this command.`);
+              .setDescription(`${x} **${member.user.username}** : You don't own a \`PISTOL\`, you need to buy one to use this command.`);
               return message.channel.send(use3embed);
         //////return message.channel.send("you don't have this item");
     }
@@ -230,7 +230,7 @@ const randomMessage = [
 }
 module.exports.config = {
     name: 'hunt', // Command Name
-    description: 'use your rifle to hunt for animals.', // Description
+    description: 'use your pistol to hunt for animals.', // Description
     usage: 'h hunt', // Usage
     botPerms: [], // Bot permissions needed to run command. Leave empty if nothing.
     userPerms: [], // User permissions needed to run command. Leave empty if nothing.
