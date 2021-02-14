@@ -54,7 +54,7 @@ const array = [{
     canBuy: true,
     displayOnShop: true,
     sellAmount: 3000,
-    price: 15000,
+    price: 25000,
     keep: true,
     run: async (bot, message, args) => {
       
@@ -144,7 +144,7 @@ const array = [{
     canUse: true,
     canBuy: true,
     displayOnShop: true,
-    sellAmount: 6667,
+    sellAmount: 2000,
     price: 20000,
     keep: false,
     run: async (bot, message, args) => {
@@ -160,7 +160,7 @@ const array = [{
     canBuy: true,
     displayOnShop: true,
     sellAmount: 3000,
-    price: 22500,
+    price: 40000,
     keep: true,
     run: async (bot, message, args) => {
 
@@ -290,7 +290,7 @@ const array = [{
     canBuy: true,
     displayOnShop: true,
     sellAmount: 3000,
-    price: 30000,
+    price: 40000,
     keep: true,
     run: async (bot, message, args) => {
 
@@ -381,7 +381,7 @@ const array = [{
     canBuy: true,
     displayOnShop: true,
     sellAmount: 3000,
-    price: 20000,
+    price: 50000,
     keep: true,
     run: async (bot, message, args) => {
         const treeAmount = Math.round(Math.random() * 1) + 1;
@@ -420,7 +420,7 @@ const array = [{
     canBuy: true,
     displayOnShop: true,
     sellAmount: 4000,
-    price: 10000,
+    price: 15000,
     keep: false,
     run: async (bot, message, args) => {
 
