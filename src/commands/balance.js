@@ -18,7 +18,7 @@ module.exports.config = {
     usage: 'h balance',
     botPerms: [],
     userPerms: [],
-    aliases: ['bal', 'bank'],
+    aliases: ['bal', 'bank', 'Bal'],
     bankSpace: 0,
     cooldown: 5
 }

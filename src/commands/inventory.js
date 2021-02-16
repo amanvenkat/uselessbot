@@ -33,7 +33,7 @@ module.exports.config = {
     usage: 'h inventory', // Usage
     botPerms: [], // Bot permissions needed to run command. Leave empty if nothing.
     userPerms: [], // User permissions needed to run command. Leave empty if nothing.
-    aliases: ['inv'], // Aliases 
+    aliases: ['inv', 'Inv'], // Aliases 
     bankSpace: 5, // Amount of bank space to give when command is used.
     cooldown: 5 // Command Cooldown
 
