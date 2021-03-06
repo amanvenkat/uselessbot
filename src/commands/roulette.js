@@ -30,7 +30,7 @@ module.exports.run = async (bot, message, args) => {
             .setDescription(`${x} **${member.user.username}** : Invalid colour please chose from below.`);
     let colorbadinfo = new MessageEmbed()
             .setColor("BLUE")
-            .setFooter("\`(https://top.gg/bot/805507397136154664/vote)\`")
+            .setFooter("\`(https://top.gg/bot/808350130352554004/vote)\`")
             .setDescription(`${i} **${member.user.username}** : Command Infomation 
 
   🔴Red | Multiplier: x1.5
@@ -91,13 +91,13 @@ module.exports.run = async (bot, message, args) => {
         let moneyhelp = new MessageEmbed()
             .setColor("RED")
             .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
-            .setFooter("\`[vote](https://top.gg/bot/805507397136154664/vote)\`")
+            .setFooter("\`[vote](https://top.gg/bot/808350130352554004/vote)\`")
             .setDescription(`${x} **${member.user.username}** :  Specify an amount to gamble \n\n h roulette <color> <amount>`);
 
         let moneymore = new MessageEmbed()
             .setColor("RED")
             .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
-            .setFooter("\`[vote](https://top.gg/bot/805507397136154664/vote)\`")
+            .setFooter("\`[vote](https://top.gg/bot/808350130352554004/vote)\`")
             .setDescription(`${x} **${member.user.username}** :  You are betting more than you have`);
 
         
@@ -110,7 +110,7 @@ module.exports.run = async (bot, message, args) => {
             let moneyEmbed1 = new MessageEmbed()
                 .setColor("GREEN")
                 .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
-                .setFooter("\`[vote](https://top.gg/bot/805507397136154664/vote)\`")
+                .setFooter("\`[vote](https://top.gg/bot/808350130352554004/vote)\`")
                 .setDescription(`Roulette V2 | Player : **${member.user.username}** \n\n Colour : 🟢  \n\n Multiplier : **x5**  \n\n Winnings : **${betAmount.toLocaleString()}** coins`);
             message.channel.send(moneyEmbed1)
           
@@ -120,7 +120,7 @@ module.exports.run = async (bot, message, args) => {
             let moneyEmbed2 = new MessageEmbed()
                 .setColor("GREEN")
                 .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
-                .setFooter("\`[vote](https://top.gg/bot/805507397136154664/vote)\`")
+                .setFooter("\`[vote](https://top.gg/bot/808350130352554004/vote)\`")
                 .setDescription(`Roulette V2 | Player : **${member.user.username}** \n\n Colour : 🔴 \n\n Multiplier : **x1.5**  \n\n Winnings : **${betAmount.toLocaleString()}** coins`);
             message.channel.send(moneyEmbed2)
           
@@ -130,7 +130,7 @@ module.exports.run = async (bot, message, args) => {
             let moneyEmbed4 = new MessageEmbed()
                 .setColor("GREEN")
                 .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
-                .setFooter("\`[vote](https://top.gg/bot/805507397136154664/vote)\`")
+                .setFooter("\`[vote](https://top.gg/bot/808350130352554004/vote)\`")
                 .setDescription(`Roulette V2 | Player : **${member.user.username}** \n\n Colour : 🟡 \n\n Multiplier : **x2.5**  \n\n Winnings : **${betAmount.toLocaleString()}** coins`);
             message.channel.send(moneyEmbed4)
             
@@ -140,7 +140,7 @@ module.exports.run = async (bot, message, args) => {
             let moneyEmbed3 = new MessageEmbed()
                 .setColor("GREEN")
                 .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
-                .setFooter("\`[vote](https://top.gg/bot/805507397136154664/vote)\`")
+                .setFooter("\`[vote](https://top.gg/bot/808350130352554004/vote)\`")
                 .setDescription(`Roulette V2 | Player : **${member.user.username}** \n\n Colour : ⚫ \n\n Multiplier : **x2**  \n\n Winnings : **${betAmount.toLocaleString()}** coins`);
             message.channel.send(moneyEmbed3)
           
@@ -151,7 +151,7 @@ module.exports.run = async (bot, message, args) => {
             let moneyEmbed4 = new MessageEmbed()
                 .setColor("RED")
                 .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
-                .setFooter("\`[vote](https://top.gg/bot/805507397136154664/vote)\`")
+                .setFooter("\`[vote](https://top.gg/bot/808350130352554004/vote)\`")
                 .setDescription(`Roulette V2 | Player : **${member.user.username}** \n\nYou lost **${betAmount.toLocaleString()}** coins \n\nGoodluck next time`);
             message.channel.send(moneyEmbed4)
         }

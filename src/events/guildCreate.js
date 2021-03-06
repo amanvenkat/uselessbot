@@ -8,7 +8,7 @@ module.exports = async (bot, guild) => {
 Hello, I am Medu Wada thank you for inviting me to your server.
 To see the list of commands type [\`do help\`]
 **Links** :
-[\`Support Server\`](https://discord.gg/eSmVBGRfqY) | [\`Invite Me\`](https://discord.com/oauth2/authorize?client_id=808350130352554004&scope=bot&permissions=2147483647)
+[\`Support Server\`](https://discord.gg/zxV459eYPF) | [\`Invite Me\`](https://discord.com/oauth2/authorize?client_id=808350130352554004&scope=bot&permissions=2147483647)
 `)
 		   guild.systemChannel.send(embed)
 
@@ -28,7 +28,7 @@ guild.channels.cache.forEach((channel) => {
 Hello, I am Medu Wada thank you for inviting me to your server.
 To see the list of commands type [\`do help\`]
 **Links** :
-[\`Support Server\`](https://discord.gg/eSmVBGRfqY) | [\`Invite Me\`](https://discord.com/oauth2/authorize?client_id=808350130352554004&scope=bot&permissions=2147483647) 
+[\`Support Server\`](https://discord.gg/zxV459eYPF) | [\`Invite Me\`](https://discord.com/oauth2/authorize?client_id=808350130352554004&scope=bot&permissions=2147483647) 
 `)
   defaultChannel.send(embed)
 	

@@ -48,7 +48,7 @@ module.exports.run = async (bot, message, args) => {
         const wonEmbed = new MessageEmbed()
         .setColor('GREEN')
         .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
-        .setFooter(`[vote](https://top.gg/bot/805507397136154664/vote)`)
+        .setFooter(`[vote](https://top.gg/bot/808350130352554004/vote)`)
         .setDescription(`Gamble V2 | Player : **${member.user.username}** \n\nMedu Wada rolled: \`${botRoll}\` \n${member.user.username} rolled: \`${userChoice}\`\n\nWin Rate: \`${Math.floor(userChoice-botRoll)*10}%\`\n\nWinnings: **${wonCoins.toLocaleString()}** coins`)
         message.channel.send(wonEmbed);
     } else if (botRoll == userChoice) {
@@ -58,7 +58,7 @@ module.exports.run = async (bot, message, args) => {
         const tieEmbed = new MessageEmbed()
         .setColor('YELLOW')
         .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
-        .setFooter(`[vote](https://top.gg/bot/805507397136154664/vote)`)
+        .setFooter(`[vote](https://top.gg/bot/808350130352554004/vote)`)
         .setDescription(`Gamble V2 | Player : **${member.user.username}** \n\nMedu Wada rolled: \`${botRoll}\` \n${member.user.username} rolled: \`${userChoice}\`\n\n**${member.user.username}** & **MeduWada**:Tied\n\nLost: **${tieCoins.toLocaleString()}** coins`)
         message.channel.send(tieEmbed);
     } else if (botRoll > userChoice) {
@@ -68,7 +68,7 @@ module.exports.run = async (bot, message, args) => {
         const lostEmbed = new MessageEmbed()
         .setColor('RED')
         .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
-        .setFooter(`[vote](https://top.gg/bot/805507397136154664/vote)`)
+        .setFooter(`[vote](https://top.gg/bot/808350130352554004/vote)`)
         .setDescription(`Gamble V2 | Player : **${member.user.username}** \n\nMedu Wada rolled: \`${botRoll}\` \n${member.user.username} rolled: \`${userChoice}\`\n\nLost Rate: \`${Math.floor(botRoll-userChoice)*10}%\`\n\nlost: **${lostCoins.toLocaleString()}** coins`)
         message.channel.send(lostEmbed);
     }

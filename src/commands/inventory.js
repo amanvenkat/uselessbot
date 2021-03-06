@@ -19,7 +19,7 @@ module.exports.run = async (bot, message, args) => {
     const items = item.map(x => `${x.description}\n  \`id: ${x.name} \` x ${x.amount.toLocaleString()}`);
     const embed = new MessageEmbed()
         .setThumbnail(member.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
-        .setFooter("\`[vote](https://top.gg/bot/805507397136154664/vote)\`")
+        .setFooter("\`[vote](https://top.gg/bot/808350130352554004/vote)\`")
         .setTitle(`${message.author.username}'s Inventory`)
         .setDescription(`${items.join('\n\n')}`)
         .setFooter(`Page ${args[0] || 1} of ${page}`)

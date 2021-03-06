@@ -3,7 +3,7 @@ module.exports.run = async (bot, message, args) => {
     const InviteEmbed = new MessageEmbed()
 
         .setTitle(bot.user.tag)
-        .setFooter("\`[vote](https://top.gg/bot/805507397136154664/vote)\`")
+        .setFooter("\`[vote](https://top.gg/bot/808350130352554004/vote)\`")
         .setDescription(`Medu Wada is a fun Economy bot with various Items and is easy to use. 
     [Invite](https://discord.com/oauth2/authorize?client_id=808350130352554004&scope=bot&permissions=2147483647) Medu Wada to your server today!\nYou can also hangout in our [Discord Server](https://discord.gg/aj3hz97m5U)`)
         .setThumbnail(bot.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
