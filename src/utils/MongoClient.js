@@ -3,12 +3,11 @@ const { Client } = require('discord.js');
 const mongoose = require('mongoose');
 const economy = require('../models/EconomyModel');
 const ItemManager = require('./ItemManager');
-const config = require('./src/utils/config.json');
 
 class MongoClient extends Client {
     constructor() {
         super();
-        mongoose.connect(`mongodb+srv://Admin:Rb4ClJBg6N4i29kN@cluster0.dvsvp.mongodb.net/amanbro?retryWrites=true&w=majority`, {
+        mongoose.connect(process.env.MONGODB, {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
