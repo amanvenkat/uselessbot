@@ -4,6 +4,7 @@ const DBL = require("dblapi.js");
 const MongoClient = require('./utils/MongoClient');
 const bot = new MongoClient({ ws: { intents: ['GUILDS', 'GUILD_MESSAGES', 'GUILD_MEMBERS'] }, fetchAllMembers: false });
 const dbl = new DBL(process.env.WEBHOOK, bot);
+const app = express()
 
 app.post( '/vote', async function( request, result) { 
     if ( request.headers.authorization && request.headers.authorization === "AmanBhai1970" ) { 
