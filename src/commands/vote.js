@@ -1,6 +1,5 @@
 const { MessageEmbed } = require("discord.js");
 const i = 'ℹ'
-let user = await bot.fetchUser(message.author.id);
 module.exports.run = async (bot, message, args) => {
     const usertag = message.member;
     let begembed = new MessageEmbed()
