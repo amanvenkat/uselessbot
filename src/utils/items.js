@@ -55,6 +55,19 @@ const array = [{
     }
 },
 {
+    name: 'GPU',
+    description: `${lock} **GPU**\nHelps in crypto mining`,
+    canUse: false,
+    canBuy: true,
+    displayOnShop: true,
+    sellAmount: 2000,
+    price: 100,
+    keep: true,
+    run: async (bot, message, args) => {
+
+    }
+},            
+{
     name: 'fishingrod',
     description: '🎣 **Fishing Rod** \nuse this to catchs fish',
     canUse: false,
