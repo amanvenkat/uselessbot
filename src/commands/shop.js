@@ -8,6 +8,7 @@ const sc = '🥈' // :HYDRA_SILVER_COIN_GIF:
 const bc = '🥉' // :HYDRA_BRONZE_COIN_GIF: 
 const ht = '🏆' // :HYDRA_THROPHY:
 const hc = '🍀'
+const GPU = '<:GPU:879993342753124403>'
 
 const Discord = require("discord.js")
 module.exports.run = async (bot, message, args) => {
@@ -15,7 +16,7 @@ module.exports.run = async (bot, message, args) => {
     let timeout = 5;
 
   let pages = [
-              `🍪 **Cookie - __50__** __coins__\n\`id: cookie\`\nUse to make you more fat \n${lock} **Padlock - __10__,__000__** __coins__\n\`id: padlock\`\nUse this to stop those pesky robber\n📜 **Bank Note - __20__,__000__** __coins__\n\`id: banknote\`\nUse this to increase your back capacity\n${hc} **Lucky Clover - __15__,__000__** __coins__\n\`id: luckyclover\`\nUse this to increase you chances of robbing`,
+              `🍪 **Cookie - __50__** __coins__\n\`id: cookie\`\nUse to make you more fat \n${lock} **Padlock - __100__** __coins__\n\`id: GPU\`\nUse this to mine crypto coins\n${GPU} **GPU - __10__,__000__** __coins__\n\`id: padlock\`\nUse this to stop those pesky robber\n📜 **Bank Note - __20__,__000__** __coins__\n\`id: banknote\`\nUse this to increase your back capacity\n${hc} **Lucky Clover - __15__,__000__** __coins__\n\`id: luckyclover\`\nUse this to increase you chances of robbing`,
               `${pistol} **Pistol - __40__,__000__** __coins__\n\`id: pistol\`\nUse this to go hunting\n${axe} **Axe - __50__,__000__** __coins__\n\`id: axe\`\nUse this to cut trees down!\n🎣 **Fishing Rod - __25__,__000__** __coins__\n\`id: fishingrod\`\nUse this to go fishing!\n${pick} **Pickaxe - __40__,__000__** __coins__\n\`id: pickaxe\`\nUse this to mine gems!`,
               `${rc} **Medu Wada Super Coin - __100__,__000__,__000__** __coins__\n\`id: supercoin\`\n${gc} **Medu Wada Gold Coin - __50__,__000__,__000__** __coins__\n\`id: goldcoin\`\n${sc} **Medu Wada Silver Coin - __15__,__000__,__000__** __coins__\n\`id: silvercoin\`\n${bc} **Medu Wada Bronze Coin - __5__,__000__,__000__** __coins__\n\`id: bronzecoin\`\n${ht} **Medu Trophy - __100__,__000__,__000__** __coins__\n\`id: trophy\``
               ];
