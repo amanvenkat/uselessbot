@@ -15,7 +15,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.config = {
     name: 'vote', // Command Name
-    coinsInWallet: +=30000
+    user.coinsInWallet += 30000;
     description: 'allows you to vote.', // Description
     usage: 'h vote', // Usage
     botPerms: [], // Bot permissions needed to run command. Leave empty if nothing.
