@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
     .setColor("BLUE")
     .setDescription(`${i} **${usertag.user.username}** : Vote For Medu Wada Here : \n https://top.gg/bot/808350130352554004/vote`)
     message.channel.send(begembed).catch();
-    user.coinsInWallet += 30000;
+    usertag.coinsInWallet += 30000;
     
     
 }
