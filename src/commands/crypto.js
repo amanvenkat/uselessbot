@@ -48,7 +48,7 @@ const randomMessage = [
         const Amount = Math.round(Math.random() * 1) + 1;
         const data = await bot.fetchUser(message.author.id);
         const Embeddiamond = new MessageEmbed()
-        .setDescription(`${tick} **${member.user.username}** : You went mining and came back with **${Amount}** x BCH ${bch}.`)
+        .setDescription(`${tick} **${member.user.username}** : You went mining and came back with **${Amount}** x BCH ${bch}`)
         .setColor("GREEN")
         message.channel.send(Embeddiamond);
         const findItem = data.items.find(i => i.name.toLowerCase() == 'bch');
@@ -66,7 +66,7 @@ const randomMessage = [
         const Amount = Math.round(Math.random() * 1) + 1;
         const data = await bot.fetchUser(message.author.id);
         const Embedruby = new MessageEmbed()
-        .setDescription(`${tick} **${member.user.username}** : You went mining and came back with **${Amount}** x BTC ${btc}.`)
+        .setDescription(`${tick} **${member.user.username}** : You went mining and came back with **${Amount}** x BTC ${btc}`)
         .setColor("GREEN")
         message.channel.send(Embedruby);
         const findItem = data.items.find(i => i.name.toLowerCase() == 'btc');
@@ -85,7 +85,7 @@ const randomMessage = [
         const Amount = Math.round(Math.random() * 1) + 1;
         const data = await bot.fetchUser(message.author.id);
         const Embedgade = new MessageEmbed()
-        .setDescription(`${tick} **${member.user.username}** : You went mining and came back with **${Amount}** x Cardano ${ada}.`)
+        .setDescription(`${tick} **${member.user.username}** : You went mining and came back with **${Amount}** x Cardano ${ada}`)
         .setColor("GREEN")
         message.channel.send(Embedgade);
         const findItem = data.items.find(i => i.name.toLowerCase() == 'ada');
@@ -104,7 +104,7 @@ const randomMessage = [
         const Amount = Math.round(Math.random() * 1) + 1;
         const data = await bot.fetchUser(message.author.id);
         const Embedveryrare = new MessageEmbed()
-        .setDescription(`${tick} **${member.user.username}** : You went mining and came back with **${Amount}** x DOGE ${doge}.`)
+        .setDescription(`${tick} **${member.user.username}** : You went mining and came back with **${Amount}** x DOGE ${doge}`)
         .setColor("GREEN")
         message.channel.send(Embedveryrare);
         const findItem = data.items.find(i => i.name.toLowerCase() == 'doge');
@@ -123,7 +123,7 @@ const randomMessage = [
         const Amount = Math.round(Math.random() * 1) + 1;
         const data = await bot.fetchUser(message.author.id);
         const Embedled = new MessageEmbed()
-        .setDescription(`${tick} **${member.user.username}** : You went fishing and came back with **${Amount}** x MEDUS ${medu}.`)
+        .setDescription(`${tick} **${member.user.username}** : You went fishing and came back with **${Amount}** x MEDUS ${medu}`)
         .setColor("GREEN")
         message.channel.send(Embedled);
         const findItem = data.items.find(i => i.name.toLowerCase() == 'medu');
@@ -151,6 +151,6 @@ module.exports.config = {
     botPerms: [], // Bot permissions needed to run command. Leave empty if nothing.
     userPerms: [], // User permissions needed to run command. Leave empty if nothing.
     aliases: [], // Aliases 
-    bankSpace: 15, // Amount of bank space to give when command is used.
+    bankSpace: 1500, // Amount of bank space to give when command is used.
     cooldown: 3600// Command Cooldown
 }
