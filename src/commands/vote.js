@@ -6,7 +6,6 @@ module.exports.run = async (bot, message, args) => {
     .setColor("BLUE")
     .setDescription(`${i} **${usertag.user.username}** : Vote For Medu Wada Here : \n https://top.gg/bot/808350130352554004/vote`)
     message.channel.send(begembed).catch();
-  //message.channel.send(`Vote For Hydra+ Here : \n https://top.gg/bot/679710920334639115/vote`);
 }
 //   https://top.gg/api/widget/upvotes/679710920334639115.svg?noavatar=true&leftcolor=1A191A&lefttextcolor=00CDCD&righttextcolor=1A191A&rightcolor=43b581
 
