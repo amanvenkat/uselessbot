@@ -14,7 +14,7 @@ module.exports.config = {
     description: 'allows you to vote.', 
     usage: 'h vote', 
     botPerms: [], 
-    userPerms: [], .
+    userPerms: [], 
     aliases: [],  
     bankSpace: 15, 
     cooldown: 5 
