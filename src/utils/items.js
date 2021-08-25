@@ -15,6 +15,13 @@ const hr = '♦'
 const hg = '🔰'
 const ha = '🔷'
 const hp = '💫'
+const DOGE = '<:DOGE:879991333895421962>'
+const BTC = '<:BTC:879991333123674132>'
+const ADA = '<:ADA:879991332817477672>'
+const ETH = '<:ETH:879991333161414656>'
+const MEDU = '<:MEDU:879991332708421634>'
+const BCH = '<:BCH:879991335606689832>'
+const GPU = '<:GPU:879993342753124403>'
 const array = [{
     name: 'cookie',
     description: '🍪 **Cookie**\nA tasty snack.',
@@ -364,6 +371,84 @@ const array = [{
 {
     name: 'precious',
     description: `${hp} **Precious Gem** \nsell the precious to make money.`,
+    canUse: false,
+    canBuy: false,
+    displayOnShop: false,
+    sellAmount: 500,
+    price: 0,
+    keep: true,
+    run: async (bot, message, args) => {
+
+    }
+},
+               {
+name: 'DOGE',
+    description: '💎 **Doge**\nsell Dogecoins to make money.',
+    canUse: false,
+    canBuy: false,
+    displayOnShop: false,
+    sellAmount: 1000,
+    price: 0,
+    keep: true,
+    run: async (bot, message, args) => {
+
+    }
+},
+{
+    name: 'BTC',
+    description: `${hd} **Bitcoin** \nsell the bitcoins to make money.`,
+    canUse: false,
+    canBuy: false,
+    displayOnShop: false,
+    sellAmount: 30000,
+    price: 0,
+    keep: true,
+    run: async (bot, message, args) => {
+
+    }
+},
+{
+    name: 'ETH',
+    description: `${hr} **Etherium** \nsell the Etherium to make money.`,
+    canUse: false,
+    canBuy: false,
+    displayOnShop: false,
+    sellAmount: 20000,
+    price: 0,
+    keep: true,
+    run: async (bot, message, args) => {
+
+    }
+},
+{
+    name: 'ADA',
+    description: `${hg} **Cardano** \nsell the Cardano to make money.`,
+    canUse: false,
+    canBuy: false,
+    displayOnShop: false,
+    sellAmount: 15000,
+    price: 0,
+    keep: true,
+    run: async (bot, message, args) => {
+
+    }
+},
+{
+    name: 'MEDU',
+    description: `${ha} **Medu** \nsell the Medus to make money.`,
+    canUse: false,
+    canBuy: false,
+    displayOnShop: false,
+    sellAmount: 45000,
+    price: 0,
+    keep: true,
+    run: async (bot, message, args) => {
+
+    }
+},
+{
+    name: 'BCH',
+    description: `${hp} **BCH** \nsell the Bitcoin Cash to make money.`,
     canUse: false,
     canBuy: false,
     displayOnShop: false,
