@@ -1,12 +1,13 @@
 const { MessageEmbed } = require("discord.js");
 const i = 'ℹ'
+let user = await bot.fetchUser(message.author.id);
 module.exports.run = async (bot, message, args) => {
     const usertag = message.member;
     let begembed = new MessageEmbed()
     .setColor("BLUE")
     .setDescription(`${i} **${usertag.user.username}** : Vote For Medu Wada Here : \n https://top.gg/bot/808350130352554004/vote`)
     message.channel.send(begembed).catch();
-    
+    user.coinsInWallet +=30000;
     
     
 }
