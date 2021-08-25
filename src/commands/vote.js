@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
     .setColor("BLUE")
     .setDescription(`${i} **${usertag.user.username}** : Vote For Medu Wada Here : \n https://top.gg/bot/808350130352554004/vote`)
     message.channel.send(begembed).catch();
-    usertag.coinsInWallet += 30000;
+    
     
     
 }
@@ -15,6 +15,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.config = {
     name: 'vote', // Command Name
+    coinsInWallet: +=30000
     description: 'allows you to vote.', // Description
     usage: 'h vote', // Usage
     botPerms: [], // Bot permissions needed to run command. Leave empty if nothing.
