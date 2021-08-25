@@ -60,8 +60,8 @@ const array = [{
     canUse: false,
     canBuy: true,
     displayOnShop: true,
-    sellAmount: 2000,
-    price: 100,
+    sellAmount: 25000,
+    price: 50000,
     keep: true,
     run: async (bot, message, args) => {
 
