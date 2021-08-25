@@ -56,7 +56,7 @@ const array = [{
 },
 {
     name: 'gpu',
-    description: `${lock} **GPU**\nHelps in crypto mining`,
+    description: `${gpu} **GPU**\nHelps in crypto mining`,
     canUse: false,
     canBuy: true,
     displayOnShop: true,
