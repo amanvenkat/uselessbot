@@ -16,12 +16,12 @@ const hg = '🔰'
 const ha = '🔷'
 const hp = '💫'
 const doge = '<:DOGE:879991333895421962>'
-const BTC = '<:BTC:879991333123674132>'
-const ADA = '<:ADA:879991332817477672>'
-const ETH = '<:ETH:879991333161414656>'
-const MEDU = '<:MEDU:879991332708421634>'
-const BCH = '<:BCH:879991335606689832>'
-const GPU = '<:GPU:879993342753124403>'
+const btc = '<:BTC:879991333123674132>'
+const ada = '<:ADA:879991332817477672>'
+const eth = '<:ETH:879991333161414656>'
+const medu = '<:MEDU:879991332708421634>'
+const bch = '<:BCH:879991335606689832>'
+const gpu = '<:GPU:879993342753124403>'
 const array = [{
     name: 'cookie',
     description: '🍪 **Cookie**\nA tasty snack.',
@@ -55,7 +55,7 @@ const array = [{
     }
 },
 {
-    name: 'GPU',
+    name: 'gpu',
     description: `${lock} **GPU**\nHelps in crypto mining`,
     canUse: false,
     canBuy: true,
@@ -395,7 +395,7 @@ const array = [{
     }
 },
                {
-name: 'DOGE',
+name: 'doge',
     description: '💎 **Doge**\nsell Dogecoins to make money.',
     canUse: false,
     canBuy: false,
@@ -408,7 +408,7 @@ name: 'DOGE',
     }
 },
 {
-    name: 'BTC',
+    name: 'btc',
     description: `${hd} **Bitcoin** \nsell the bitcoins to make money.`,
     canUse: false,
     canBuy: false,
@@ -421,7 +421,7 @@ name: 'DOGE',
     }
 },
 {
-    name: 'ETH',
+    name: 'eth',
     description: `${hr} **Etherium** \nsell the Etherium to make money.`,
     canUse: false,
     canBuy: false,
@@ -434,7 +434,7 @@ name: 'DOGE',
     }
 },
 {
-    name: 'ADA',
+    name: 'ada',
     description: `${hg} **Cardano** \nsell the Cardano to make money.`,
     canUse: false,
     canBuy: false,
@@ -447,7 +447,7 @@ name: 'DOGE',
     }
 },
 {
-    name: 'MEDU',
+    name: 'medu',
     description: `${ha} **Medu** \nsell the Medus to make money.`,
     canUse: false,
     canBuy: false,
@@ -460,7 +460,7 @@ name: 'DOGE',
     }
 },
 {
-    name: 'BCH',
+    name: 'bch',
     description: `${hp} **BCH** \nsell the Bitcoin Cash to make money.`,
     canUse: false,
     canBuy: false,
