@@ -13,7 +13,7 @@ module.exports.run = async (bot, message, args) => {
 }
 {
     const claimed = new MessageEmbed()
-    .setDescription(`${tick} **${member.user.username}** : Vote the bot to get 30000 coins`)
+    .setDescription(`${tick} **${usertag.user.username}** : Vote the bot to get 30000 coins`)
     .setColor('GREEN');
     message.channel.send(claimed);
     user.coinsInWallet += 30000;
