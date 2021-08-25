@@ -19,7 +19,6 @@ router.post( '/vote', async function( request, result) {
   if ( request.headers.authorization && request.headers.authorization === "AmanBhai1970" ) { 
     result.status(200).send('OK')
     console.log('Got vote from', request.body.user)
-    
   }
 })
 bot.login(process.env.TOKEN);
