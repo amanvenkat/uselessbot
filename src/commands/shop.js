@@ -8,7 +8,7 @@ const sc = '🥈' // :HYDRA_SILVER_COIN_GIF:
 const bc = '🥉' // :HYDRA_BRONZE_COIN_GIF: 
 const ht = '🏆' // :HYDRA_THROPHY:
 const hc = '🍀'
-const GPU = '<:GPU:879993342753124403>'
+const gpu = '<:GPU:879993342753124403>'
 
 const Discord = require("discord.js")
 module.exports.run = async (bot, message, args) => {
