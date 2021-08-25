@@ -3,7 +3,7 @@ const Topgg = require('@top-gg/sdk')
 const fetch = require('node-fetch')
 const app = express()
 
-const webhook = new Topgg.Webhook('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgwODM1MDEzMDM1MjU1NDAwNCIsImJvdCI6dHJ1ZSwiaWF0IjoxNjI5ODkxMjYxfQ.ZagUTSKhNmB6CsgwMiMUxOzo-z-KsUNK31YZs8xMKwE') //Secure Password (Change it for god's Sake)
+const webhook = new Topgg.Webhook('AmanBhai1970') //Secure Password (Change it for god's Sake)
 
 app.post('/vote', webhook.listener(vote => { //ending url
     console.log("User with id - " + vote.user + " Voted!")
