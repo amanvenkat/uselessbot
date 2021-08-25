@@ -3,23 +3,23 @@ const { MessageEmbed } = require("discord.js");
 const i = 'ℹ'
 const x = '❌'
 const tick = '✅'
-const DOGE = '<:DOGE:879991333895421962>'
-const BTC = '<:BTC:879991333123674132>'
-const ADA = '<:ADA:879991332817477672>'
-const ETH = '<:ETH:879991333161414656>'
-const MEDU = '<:MEDU:879991332708421634>'
-const BCH = '<:BCH:879991335606689832>'
-const GPU = '<:GPU:879993342753124403>'
+const doge = '<:DOGE:879991333895421962>'
+const btc = '<:BTC:879991333123674132>'
+const ada = '<:ADA:879991332817477672>'
+const eth = '<:ETH:879991333161414656>'
+const medu = '<:MEDU:879991332708421634>'
+const bch = '<:BCH:879991335606689832>'
+const gpu = '<:GPU:879993342753124403>'
 
 module.exports.run = async (bot, message, args) => {
   let user = await bot.fetchUser(message.author.id);
 const member = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.member;
 
 
-const item = itemss.find(x => x.name.toLowerCase() === 'GPU');  
-let founditem = user.items.find(x => x.name.toLowerCase() === 'GPU');
+const item = itemss.find(x => x.name.toLowerCase() === 'gpu');  
+let founditem = user.items.find(x => x.name.toLowerCase() === 'gpu');
     let array = [];
-    array = user.items.filter(x => x.name !== 'GPU');
+    array = user.items.filter(x => x.name !== 'gpu');
     if (!founditem) {
               let use3embed = new MessageEmbed()
               .setColor("RED")
@@ -51,14 +51,14 @@ const randomMessage = [
         .setDescription(`${tick} **${member.user.username}** : You went mining and came back with **${Amount}** x BCH ${hd}.`)
         .setColor("GREEN")
         message.channel.send(Embeddiamond);
-        const findItem = data.items.find(i => i.name.toLowerCase() == 'BCH');
-        let userInv = data.items.filter(i => i.name.toLowerCase() !== 'BCH');
+        const findItem = data.items.find(i => i.name.toLowerCase() == 'bch');
+        let userInv = data.items.filter(i => i.name.toLowerCase() !== 'bch');
         if (findItem) {
-            userInv.push({ name: 'BCH', amount: (findItem.amount + Amount), description: `${hd} **Bitcoin Cash** \nsell the Bitcoin Cash to make money.` });
+            userInv.push({ name: 'bch', amount: (findItem.amount + Amount), description: `${hd} **Bitcoin Cash** \nsell the Bitcoin Cash to make money.` });
             data.items = userInv;
             await data.save();
         } else {
-            userInv.push({ name: 'BCH', amount: Amount, description: `${hd} **Bitcoin Cash** \nsell the Bitcoin Cash to make money.` });
+            userInv.push({ name: 'bch', amount: Amount, description: `${hd} **Bitcoin Cash** \nsell the Bitcoin Cash to make money.` });
             data.items = userInv;
             await data.save();
         }
@@ -69,14 +69,14 @@ const randomMessage = [
         .setDescription(`${tick} **${member.user.username}** : You went mining and came back with **${Amount}** x BTC ${hr}.`)
         .setColor("GREEN")
         message.channel.send(Embedruby);
-        const findItem = data.items.find(i => i.name.toLowerCase() == 'BTC');
-        let userInv = data.items.filter(i => i.name.toLowerCase() !== 'BTC');
+        const findItem = data.items.find(i => i.name.toLowerCase() == 'btc');
+        let userInv = data.items.filter(i => i.name.toLowerCase() !== 'btc');
         if (findItem) {
-            userInv.push({ name: 'BTC', amount: (findItem.amount + Amount), description: `${hr} **Bitcoin** \nsell the bitcoin to make money.` });
+            userInv.push({ name: 'btc', amount: (findItem.amount + Amount), description: `${hr} **Bitcoin** \nsell the bitcoin to make money.` });
             data.items = userInv;
             await data.save();
         } else {
-            userInv.push({ name: 'BTC', amount: Amount, description: `${hr} **Bitcoin** \nsell the bitcoin to make money.` });
+            userInv.push({ name: 'btc', amount: Amount, description: `${hr} **Bitcoin** \nsell the bitcoin to make money.` });
             data.items = userInv;
             await data.save();
         }
@@ -88,14 +88,14 @@ const randomMessage = [
         .setDescription(`${tick} **${member.user.username}** : You went mining and came back with **${Amount}** x Cardano ${hg}.`)
         .setColor("GREEN")
         message.channel.send(Embedgade);
-        const findItem = data.items.find(i => i.name.toLowerCase() == 'ADA');
-        let userInv = data.items.filter(i => i.name.toLowerCase() !== 'ADA');
+        const findItem = data.items.find(i => i.name.toLowerCase() == 'ada');
+        let userInv = data.items.filter(i => i.name.toLowerCase() !== 'ada');
         if (findItem) {
-            userInv.push({ name: 'ADA', amount: (findItem.amount + Amount), description: `${hg} **Cardano** \nsell the cardano to make money.` });
+            userInv.push({ name: 'ada', amount: (findItem.amount + Amount), description: `${hg} **Cardano** \nsell the cardano to make money.` });
             data.items = userInv;
             await data.save();
         } else {
-            userInv.push({ name: 'ADA', amount: Amount, description: `${hg} **Cardano** \nsell the cardano to make money.` });
+            userInv.push({ name: 'ada', amount: Amount, description: `${hg} **Cardano** \nsell the cardano to make money.` });
             data.items = userInv;
             await data.save();
         }
@@ -107,14 +107,14 @@ const randomMessage = [
         .setDescription(`${tick} **${member.user.username}** : You went mining and came back with **${Amount}** x DOGE ${ha}.`)
         .setColor("GREEN")
         message.channel.send(Embedveryrare);
-        const findItem = data.items.find(i => i.name.toLowerCase() == 'DOGE');
-        let userInv = data.items.filter(i => i.name.toLowerCase() !== 'DOGE');
+        const findItem = data.items.find(i => i.name.toLowerCase() == 'doge');
+        let userInv = data.items.filter(i => i.name.toLowerCase() !== 'doge');
         if (findItem) {
-            userInv.push({ name: 'DOGE', amount: (findItem.amount + Amount), description: `${ha} **Doge coin** \nsell the DOGE to make money.` });
+            userInv.push({ name: 'doge', amount: (findItem.amount + Amount), description: `${ha} **Doge coin** \nsell the DOGE to make money.` });
             data.items = userInv;
             await data.save();
         } else {
-            userInv.push({ name: 'DOGE', amount: Amount, description: `${ha} **Doge coin** \nsell the DOGE to make money.` });
+            userInv.push({ name: 'doge', amount: Amount, description: `${ha} **Doge coin** \nsell the DOGE to make money.` });
             data.items = userInv;
             await data.save();
         }
@@ -126,14 +126,14 @@ const randomMessage = [
         .setDescription(`${tick} **${member.user.username}** : You went fishing and came back with **${Amount}** x MEDUS ${hp}.`)
         .setColor("GREEN")
         message.channel.send(Embedled);
-        const findItem = data.items.find(i => i.name.toLowerCase() == 'MEDU');
-        let userInv = data.items.filter(i => i.name.toLowerCase() !== 'MEDU');
+        const findItem = data.items.find(i => i.name.toLowerCase() == 'medu');
+        let userInv = data.items.filter(i => i.name.toLowerCase() !== 'medu');
         if (findItem) {
-            userInv.push({ name: 'MEDU', amount: (findItem.amount + Amount), description: `${hp} **Medus** \nsell the Medus to make money.` });
+            userInv.push({ name: 'medu', amount: (findItem.amount + Amount), description: `${hp} **Medus** \nsell the Medus to make money.` });
             data.items = userInv;
             await data.save();
         } else {
-            userInv.push({ name: 'MEDU', amount: Amount, description: `${hp} **Medus** \nsell the Medus to make money.` });
+            userInv.push({ name: 'medu', amount: Amount, description: `${hp} **Medus** \nsell the Medus to make money.` });
             data.items = userInv;
             await data.save();
         }
