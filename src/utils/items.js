@@ -48,7 +48,7 @@ const array = [{
     canBuy: true,
     displayOnShop: true,
     sellAmount: 2000,
-    price: 10000,
+    price: 5000,
     keep: true,
     run: async (bot, message, args) => {
 
@@ -74,7 +74,7 @@ const array = [{
     canBuy: true,
     displayOnShop: true,
     sellAmount: 3000,
-    price: 25000,
+    price: 20000,
     keep: true,
     run: async (bot, message, args) => {
       
@@ -165,7 +165,7 @@ const array = [{
     canBuy: true,
     displayOnShop: true,
     sellAmount: 2000,
-    price: 20000,
+    price: 13000,
     keep: false,
     run: async (bot, message, args) => {
         const random = Math.ceil((Math.random() * 5000) + 5000);
@@ -180,7 +180,7 @@ const array = [{
     canBuy: true,
     displayOnShop: true,
     sellAmount: 3000,
-    price: 40000,
+    price: 30000,
     keep: true,
     run: async (bot, message, args) => {
 
@@ -310,7 +310,7 @@ const array = [{
     canBuy: true,
     displayOnShop: true,
     sellAmount: 3000,
-    price: 40000,
+    price: 25000,
     keep: true,
     run: async (bot, message, args) => {
 
@@ -400,7 +400,7 @@ name: 'doge',
     canUse: false,
     canBuy: false,
     displayOnShop: false,
-    sellAmount: 1000,
+    sellAmount: 3000,
     price: 0,
     keep: true,
     run: async (bot, message, args) => {
@@ -479,7 +479,7 @@ name: 'doge',
     canBuy: true,
     displayOnShop: true,
     sellAmount: 3000,
-    price: 50000,
+    price: 30000,
     keep: true,
     run: async (bot, message, args) => {
         const treeAmount = Math.round(Math.random() * 1) + 1;
