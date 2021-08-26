@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const EconomySchema = new mongoose.Schema({
     userId: { type: String, required: false },
-    coinsInWallet: { type: Number, required: false, default: 100 },
+    coinsInWallet: { type: Number, required: false, default: 1000 },
     coinsInBank: { type: Number, required: false, default: 500 },
     bankSpace: { type: Number, required: false, default: 2500 },
     items: { type: Array, required: false, default: [] },
