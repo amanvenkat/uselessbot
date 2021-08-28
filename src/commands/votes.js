@@ -23,9 +23,9 @@ module.exports.run = async (bot, message, args) => {
 }
 
 module.exports.config = {
-    name: 'daily', // Command Name
-    description: 'Daily Reward.', // Description
-    usage: 'h daily', // Usage
+    name: 'vote', // Command Name
+    description: 'Vote Reward.', // Description
+    usage: 'do vote', // Usage
     botPerms: [], // Bot permissions needed to run command. Leave empty if nothing.
     userPerms: [], // User permissions needed to run command. Leave empty if nothing.
     aliases: [], // Aliases 
