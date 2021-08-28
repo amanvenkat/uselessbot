@@ -7,6 +7,7 @@ const EconomySchema = new mongoose.Schema({
     bankSpace: { type: Number, required: false, default: 2500 },
     items: { type: Array, required: false, default: [] },
     dailyStreak: { type: Date, required: false, default: new Date(Date.now() - 86400000) },
+    voteStreak: { type: Date, required: false, default: new Date(Date.now() - 43200000) },
     passive: { type: Boolean, required: false, default: false }
 });
 
