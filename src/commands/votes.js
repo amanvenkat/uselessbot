@@ -17,7 +17,7 @@ module.exports.run = async (bot, message, args) => {
             .setColor('GREEN');
         message.channel.send(claimed);
          user.coinsInWallet += 30000;
-       user.save().then(user.dailyStreak = new Date(Date.now()))
+       user.save().then(user.voteStreak = new Date(Date.now()))
       
     }
 }
