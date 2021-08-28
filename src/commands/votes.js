@@ -23,7 +23,7 @@ module.exports.run = async (bot, message, args) => {
 }
 
 module.exports.config = {
-    name: 'vote', // Command Name
+    name: 'votebot', // Command Name
     description: 'Vote Reward.', // Description
     usage: 'do vote', // Usage
     botPerms: [], // Bot permissions needed to run command. Leave empty if nothing.
