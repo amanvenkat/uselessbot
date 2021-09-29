@@ -7,7 +7,7 @@ const ItemManager = require('./ItemManager');
 class MongoClient extends Client {
     constructor() {
         super();
-        mongoose.connect(process.env.MONGODB, {
+        mongoose.connect(`mongodb+srv://test:test@cluster0.p5eht.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`, {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });

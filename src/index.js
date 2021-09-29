@@ -5,7 +5,7 @@ const MongoClient = require('./utils/MongoClient');
 const bot = new MongoClient({ ws: { intents: ['GUILDS', 'GUILD_MESSAGES', 'GUILD_MEMBERS'] }, fetchAllMembers: false });
 const dbl = new DBL(process.env.WEBHOOK, bot);
 
-bot.login(process.env.TOKEN);
+bot.login("ODg5NDc5MDkyOTkzNDE3MjU2.YUh19Q.9LHpx2CKbk0oR-az4AwsZBMRwbw");
 
 bot.commands = new Collection();
 bot.aliases = new Collection();
