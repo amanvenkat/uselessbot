@@ -151,6 +151,6 @@ module.exports.config = {
     botPerms: [], // Bot permissions needed to run command. Leave empty if nothing.
     userPerms: [], // User permissions needed to run command. Leave empty if nothing.
     aliases: [], // Aliases 
-    bankSpace: 1500, // Amount of bank space to give when command is used.
-    cooldown: 3600// Command Cooldown
+    bankSpace: 2000, // Amount of bank space to give when command is used.
+    cooldown: 1800// Command Cooldown
 }
