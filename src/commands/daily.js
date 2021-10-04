@@ -1,7 +1,6 @@
 const tick = '<:check:894509078586470401>'
 const { MessageEmbed } = require('discord.js');
 const prettyMilliseconds = require('pretty-ms');
-const tick = '✅'
 const cd = '⚠'
 
 module.exports.run = async (bot, message, args) => {
