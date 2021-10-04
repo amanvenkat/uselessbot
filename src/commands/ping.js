@@ -1,6 +1,6 @@
-const tick = '<:check:894509078586470401>'const tick = '<:check:894509078586470401>'const tick = '<:check:894509078586470401>'const i = 'ℹ'
-const x = '❌'
-const tick = '✅'
+const tick = '<:check:894509078586470401>'
+const x = '<:crossed:894509079031066644>'
+const i = 'ℹ'
 module.exports.run = async (bot, message, args) => {
     message.channel.send(`${i} Pinging...`)
     .then(m => m.edit(`${tick} Ping : ${bot.ws.ping} ms`))

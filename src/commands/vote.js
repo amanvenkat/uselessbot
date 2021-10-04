@@ -1,4 +1,5 @@
-const x = '<:crossed:894509079031066644>'const { MessageEmbed } = require("discord.js");
+const x = '<:crossed:894509079031066644>'
+const { MessageEmbed } = require("discord.js");
 const itemss = require('../utils/items');
 const i = 'ℹ'
 const btc = '<:BTC:879991333123674132>'

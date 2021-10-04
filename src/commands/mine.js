@@ -1,8 +1,8 @@
-const x = '<:crossed:894509079031066644>'const x = '<:crossed:894509079031066644>'const x = '<:crossed:894509079031066644>'const x = '<:crossed:894509079031066644>'const tick = '<:check:894509078586470401>'const tick = '<:check:894509078586470401>'const tick = '<:check:894509078586470401>'const tick = '<:check:894509078586470401>'const tick = '<:check:894509078586470401>'const tick = '<:check:894509078586470401>'const itemss = require('../utils/items');
+const x = '<:crossed:894509079031066644>'
+const tick = '<:check:894509078586470401>'
+const itemss = require('../utils/items');
 const { MessageEmbed } = require("discord.js");
 const i = 'ℹ'
-const x = '❌'
-const tick = '✅'
 const hd = '💎'
 const hr = '♦'
 const hg = '🔰'
