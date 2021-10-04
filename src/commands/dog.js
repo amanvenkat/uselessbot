@@ -1,8 +1,8 @@
-const x = '<:crossed:894509079031066644>'const tick = '<:check:894509078586470401>'const tick = '<:check:894509078586470401>'const { MessageEmbed } = require('discord.js');
+const x = '<:crossed:894509079031066644>'
+const tick = '<:check:894509078586470401>'
+const { MessageEmbed } = require('discord.js');
 const itemss = require('../utils/items');
 const i = 'ℹ'
-const x = '❌'
-const tick = '✅'
 const request = require('request')
 
 module.exports.run = async (bot, message, args) => { 
