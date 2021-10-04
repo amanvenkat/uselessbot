@@ -13,6 +13,10 @@ module.exports.run = async (bot, message, args) => {
         `You searched in your bedroom, You found ${random.toLocaleString()} coins.`,
         `You searched in the cracks of the sofa, You found ${random.toLocaleString()} coins.`,
         `You searched your mothers draws, You found ${random.toLocaleString()} coins.`,
+        `You searched the developer's room, You found ${random.toLocaleString()} coins.`,
+        `You searched your bed, You found ${random.toLocaleString()} coins.`,
+        `You searched your school for deposit money, You found ${random.toLocaleString()} coins.`,
+        `You searched your house, You found ${random.toLocaleString()} coins.`,
     ];
     const response = randomMessage[Math.floor((Math.random() * randomMessage.length))];
     let searchembed = new MessageEmbed()
