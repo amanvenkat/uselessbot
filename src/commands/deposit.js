@@ -1,7 +1,7 @@
-const tick = '<:check:894509078586470401>'const tick = '<:check:894509078586470401>'const { MessageEmbed } = require('discord.js');
+const x = '<:crossed:894509079031066644>'
+const tick = '<:check:894509078586470401>'
+const { MessageEmbed } = require('discord.js');
 const i = 'ℹ'
-const x = '❌'
-const tick = '✅'
 
 module.exports.run = async (bot, message, args) => {
     let data = await bot.fetchUser(message.author.id);
