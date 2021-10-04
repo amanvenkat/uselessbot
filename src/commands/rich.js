@@ -1,4 +1,4 @@
-
+const x = '<:crossed:894509079031066644>'
 const { MessageEmbed } = require('discord.js');
 const economy = require('../models/EconomyModel');
 

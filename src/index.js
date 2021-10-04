@@ -1,4 +1,4 @@
-require('dotenv').config();
+const x = '<:crossed:894509079031066644>'require('dotenv').config();
 const { Collection } = require('discord.js');
 const DBL = require("dblapi.js");
 const MongoClient = require('./utils/MongoClient');

@@ -1,4 +1,4 @@
-const { MessageEmbed, Message } = require('discord.js');
+const x = '<:crossed:894509079031066644>'const { MessageEmbed, Message } = require('discord.js');
 const moment = require('moment');
 const pm = require('pretty-ms');
 /**

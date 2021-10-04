@@ -1,4 +1,4 @@
-const { MessageEmbed } = require('discord.js');
+const x = '<:crossed:894509079031066644>'const { MessageEmbed } = require('discord.js');
 const p = require('pretty-ms');
 const i = 'ℹ'
 

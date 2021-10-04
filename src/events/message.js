@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+const x = '<:crossed:894509079031066644>'const Discord = require('discord.js');
 const prettyMilliseconds = require('pretty-ms');
 const prefix = 'do ';
 const cd = '⚠'

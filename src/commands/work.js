@@ -1,4 +1,4 @@
-const ms = require("parse-ms");
+const tick = '<:check:894509078586470401>'const tick = '<:check:894509078586470401>'const ms = require("parse-ms");
 const { MessageEmbed } = require("discord.js")
 const i = 'ℹ'
 const x = '❌'

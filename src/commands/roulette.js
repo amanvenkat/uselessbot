@@ -1,4 +1,4 @@
-const i = 'ℹ'
+const tick = '<:check:894509078586470401>'const tick = '<:check:894509078586470401>'const i = 'ℹ'
 const x = '❌'
 const tick = '✅'
 const { MessageEmbed } = require("discord.js");

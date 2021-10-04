@@ -1,4 +1,4 @@
-const i = 'ℹ'
+const x = '<:crossed:894509079031066644>'const tick = '<:check:894509078586470401>'const tick = '<:check:894509078586470401>'const tick = '<:check:894509078586470401>'const i = 'ℹ'
 const x = '❌'
 const tick = '✅'
 const itemss = require('../utils/items');
