@@ -1,11 +1,16 @@
 const { MessageEmbed } = require("discord.js");
+const itemss = require('../utils/items');
 const i = 'ℹ'
+const btc = '<:BTC:879991333123674132>'
 module.exports.run = async (bot, message, args) => {
     const usertag = message.member;
+    const random = 100000;
     let begembed = new MessageEmbed()
+    .setAuthor(`VOTE THE BOT TO GET 100000`)
     .setColor("BLUE")
-    .setDescription(`${i} **${usertag.user.username}** : Vote For Medu Wada Here : \n https://top.gg/bot/808350130352554004/vote`)
+    .setDescription(`${i} **${usertag.user.username}** : [Vote Here](https://discordbotlist.com/bots/medu-wada/upvote)`)
     message.channel.send(begembed).catch();
+    await bot.giveCoins(message.author.id, random);
 }
 
 module.exports.config = {
@@ -17,5 +22,5 @@ module.exports.config = {
     userPerms: [], 
     aliases: [],  
     bankSpace: 15, 
-    cooldown: 5 
+    cooldown: 43200 
 }
