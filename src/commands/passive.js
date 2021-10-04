@@ -1,6 +1,6 @@
-const x = '<:crossed:894509079031066644>'const tick = '<:check:894509078586470401>'const tick = '<:check:894509078586470401>'const i = 'ℹ'
-const x = '❌'
-const tick = '✅'
+const x = '<:crossed:894509079031066644>'
+const tick = '<:check:894509078586470401>'
+const i = 'ℹ'
 const { MessageEmbed } = require("discord.js");
 module.exports.run = async (bot, message, args) => {
     const member = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.member;
