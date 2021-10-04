@@ -6,10 +6,17 @@ module.exports.run = async (bot, message, args) => {
     const usertag = message.member;
     const random = Math.round(Math.random() * 400);
     const randomMessage = [
-        `**Elon Musk** gave you ${random.toLocaleString()} coins.`,
-        `**Bill Gates** gave you ${random.toLocaleString()} coins.`,
-        `A **beggar** gave you ${random.toLocaleString()} coins.`,
-        `Barack Obama gave you ${random.toLocaleString()} coins.`,
+        `**Elon Musk** has extra cash so gave you ${random.toLocaleString()} coins.`,
+        `**Bill Gates** threw ${random.toLocaleString()} coins at you`,
+        `A **Beggar** was asking for money but you begged from him and he gave you ${random.toLocaleString()} coins.`,
+        `**Barack Obama** is cool so he gave you ${random.toLocaleString()} coins.`,
+        `A Nice guy saw you and gave you ${random.toLocaleString()} coins.`,
+        `You begged from the developer lmao. He gave you ${random.toLocaleString()} coins.`,
+        `**Taylor Swift** made money from her concert and decided to donate ${random.toLocaleString()} coins to you.`,
+        `You asked **SypherPK** for his youtube revenue and ended getting ${random.toLocaleString()} coins.`,
+        `You asked your mom for allowance and she gave you ${random.toLocaleString()} coins.`,
+        `You cant see this person but he gave you ${random.toLocaleString()} coins. **AND HIS NAME IS JOHN CENA**`,
+        `You begged all around your neighbourhood and earned ${random.toLocaleString()} coins.`,
     ];
   
     const response = randomMessage[Math.floor((Math.random() * randomMessage.length))];
