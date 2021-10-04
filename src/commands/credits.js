@@ -10,8 +10,8 @@ module.exports.run = async (bot, message, args) => {
       .setDescription(`
 **${i} Medu Wada Development Team :**
 
-${dev} Bot Developer :\n\`HT Aman#4222\`
-${dg} Graphics & Design Developers :\n\`ShiverFNM#0518\`, \`HT Aman#4222\`
+${dev} Bot Developer :\n\`4man#9361\`
+${dg} Graphics & Design Developers :\n\`ShiverFNM#0518\`, \`4man#9361\`
 `)
       .setColor('BLUE')
 
