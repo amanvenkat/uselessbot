@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
     const usertag = message.member;
     const random = 100000;
     let begembed = new MessageEmbed()
-    .setAuthor(`VOTE THE BOT TO GET 100000`)
+    .setAuthor(`VOTE THE BOT TO GET 100000 COINS`)
     .setColor("BLUE")
     .setDescription(`${i} **${usertag.user.username}** : [Vote Here](https://discordbotlist.com/bots/medu-wada-0478/upvote)`)
     message.channel.send(begembed).catch();
