@@ -43,7 +43,7 @@ const randomMessage = [
   'rabbit',
   'chicken',
   'boar',
-  'missed'
+  'missed', 'missed', 'missed', 'missed'
     ];
   
     const response = randomMessage[Math.floor((Math.random() * randomMessage.length))];

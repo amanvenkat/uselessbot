@@ -4,7 +4,7 @@ const i = 'ℹ'
 module.exports.run = async (bot, message, args) => {
   
     const usertag = message.member;
-    const random = Math.round(Math.random() * 1000);
+    const random = Math.round(Math.random() * 3000);
     const randomMessage = [
         `You searched in the Bin, You found ${random.toLocaleString()} coins.`,
         `You searched in the Drain, You found ${random.toLocaleString()} coins.`,

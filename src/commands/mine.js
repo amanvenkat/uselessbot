@@ -34,7 +34,7 @@ const randomMessage = [
   'g','g','g',
   'a','a',
   'p',
-  'missed','missed','missed','missed'
+  'missed','missed','missed','missed', 'missed', 'missed'
     ];
   
     const response = randomMessage[Math.floor((Math.random() * randomMessage.length))];

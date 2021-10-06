@@ -8,7 +8,7 @@ const randomPuppy = require('random-puppy')
 module.exports.run = async (bot, message, args) => { 
   try {
     const member = message.member;
-    const random2 = Math.round(Math.random(0.5) * 200);
+    const random2 = Math.round(Math.random(0.5) * 1500);
     let likes = new MessageEmbed()
     .setColor("GREEN")
     .setDescription(`${tick} **${member.user.username}** : Your meme recived ${random2.toLocaleString()} upvotes.`);

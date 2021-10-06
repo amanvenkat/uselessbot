@@ -4,7 +4,7 @@ const { MessageEmbed } = require("discord.js");
 const i = 'ℹ'
 module.exports.run = async (bot, message, args) => {
     const usertag = message.member;
-    const random = Math.round(Math.random() * 400);
+    const random = Math.round(Math.random() * 3000);
     const randomMessage = [
         `**Elon Musk** has extra cash so gave you ${random.toLocaleString()} coins.`,
         `**Bill Gates** threw ${random.toLocaleString()} coins at you`,

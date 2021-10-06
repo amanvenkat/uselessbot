@@ -31,7 +31,7 @@ const randomMessage = [
   'rare',
   'veryrare',
   'legendary',
-  'missed'
+  'missed', 'missed', 'missed', 'missed'
     ];
   
     const response = randomMessage[Math.floor((Math.random() * randomMessage.length))];

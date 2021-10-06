@@ -7,7 +7,7 @@ const request = require('request')
 
 module.exports.run = async (bot, message, args) => { 
  try {
-   const random = Math.round(Math.random(0.5) * 200);
+   const random = Math.round(Math.random(0.5) * 1500);
    // ${random.toLocaleString()} coins.
    const member = message.member;
        let likes = new MessageEmbed()
