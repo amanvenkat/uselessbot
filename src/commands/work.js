@@ -22,7 +22,7 @@ module.exports.run = async (bot, message, args) => {
         let replies = ['Programmer','Builder','Waiter','Busboy','Chief','Mechanic']
 
         let result = Math.floor((Math.random() * replies.length));
-        let amount = Math.floor(Math.random() * 300) + 1;
+        let amount = Math.floor(Math.random() * 10000) + 1;
         let embed1 = new MessageEmbed()
         .setColor("GREEN")
         .setDescription(`${tick} You worked as a ${replies[result]} and earned ${amount} coins`);
@@ -40,6 +40,6 @@ module.exports.config = {
     userPerms: [], // User permissions needed to run command. Leave empty if nothing.
     aliases: [], // Aliases 
     bankSpace: 50, // Amount of bank space to give when command is used.
-    cooldown: 45 // Command Cooldown
+    cooldown: 1800 // Command Cooldown
 }
 
