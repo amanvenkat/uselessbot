@@ -1,11 +1,13 @@
 require('dotenv').config();
 const { Collection } = require('discord.js');
+const DBL = require("dblapi.js");
 const MongoClient = require('./utils/MongoClient');
 const bot = new MongoClient({ ws: { intents: ['GUILDS', 'GUILD_MESSAGES', 'GUILD_MEMBERS'] }, fetchAllMembers: false });
 const express = require('express');
 const app = express();
 const Topgg = require('@top-gg/sdk');
 const webhook = new Topgg.Webhook('test');
+const dbl = new DBL(process.env.TOPGGWEBHOOK, bot);
 
 app.get("/", (req, res) => {
 	res.writeHead(200, { 'Content-Type': 'text/html' });
