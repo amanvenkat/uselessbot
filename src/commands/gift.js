@@ -1,7 +1,7 @@
-const itemss = require('../utils/items');
-const i = 'ℹ'
 const x = '<:crossed:894509079031066644>'
 const tick = '<:check:894509078586470401>'
+const itemss = require('../utils/items');
+const i = 'ℹ'
 const { MessageEmbed } = require("discord.js");
 
 module.exports.run = async (bot, message, args) => {
@@ -94,6 +94,6 @@ module.exports.config = {
     botPerms: [], // Bot permissions needed to run command. Leave empty if nothing.
     userPerms: [], // User permissions needed to run command. Leave empty if nothing.
     aliases: [], // Aliases 
-    bankSpace: 7, // Amount of bank space to give when command is used.
+    bankSpace: 15, // Amount of bank space to give when command is used.
     cooldown: 5 // Command Cooldown
 }
