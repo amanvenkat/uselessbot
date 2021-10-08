@@ -9,7 +9,7 @@ module.exports.run = async (bot, message, args) => {
     let begembed = new MessageEmbed()
     .setAuthor(`**VOTE THE BOT TO GET 50000 COINS**`)
     .setColor("BLUE")
-    .setDescription(`${i} **${usertag.user.username}** : [Vote Here](https://discordbotlist.com/bots/medu-wada/upvote)\n**Get 25000 extra coins on voting next time from the** [Support Server](https://discord.gg/zyc9vDuWpD)`)
+    .setDescription(`${i} **${usertag.user.username}** : [Vote Here](https://discordbotlist.com/bots/medu-wada-0478/upvote)\n**Get 25000 extra coins on voting next time from the** [Support Server](https://discord.gg/zyc9vDuWpD)`)
     message.channel.send(begembed).catch();
 
     if (message.guild.id === '892416701851910144') {
