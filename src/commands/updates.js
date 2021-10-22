@@ -6,23 +6,23 @@ module.exports.run = async (bot, message, args) => {
     .setDescription(`
 ${i} Medu Wada Update Log :
 
-Date : \`12/02/2021\`
+Date : \`22/10/2021\`
 
 1. All commands have been updated to embeds and added custom emoji's.
 
-2. Fixed 1 issue with the \`Deposit\` & \`Withdraw\` as you could deposit & withdraw 0 coins. 
+2. Fixed 1 issue with the \`Vote\` & \`Rob\` Commands. 
 
-3. Added \`Roulette\` and \`Slots\`.
+3. Added \`GPU\` and \`Crypto\`.
 
 4. Fixed issue with \`Gamble\`, \`Dice\`, \`Roulette\`, \`Slots\` allowing you to gamble 0 coins.
 
 5. 4. Fixed issue with \`Gamble\`, \`Dice\`, \`Roulette\`, \`Slots\` that after winning 0.5 coins it would brake the balance system.
 
-6. Unfortunately there was a issue with the items in users profiles, as we changed the way the \`Inventory\` command is displayed. Also the users balance's have also been reset.
+6. Unfortunately there was an issue with the items in users profiles, as we changed the way the \`Inventory\` command is displayed. Also the users balance's have also been reset.
 
-Date : \`13/02/2021\`
+Date : \`22/10/2021\`
 
-1. Added the command \`do mine\`.
+1. Added the command \`do crypto\`.
 `)
     .setColor("BLUE")
     message.channel.send(Embed);
@@ -33,7 +33,7 @@ module.exports.config = {
     usage: 'h updates',
     botPerms: [],
     userPerms: [],
-    aliases: ['log'],
+    aliases: ['log','news'],
     bankSpace: 1,
     cooldown: 5
 }

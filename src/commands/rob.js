@@ -30,7 +30,7 @@ module.exports.run = async (bot, message, args) => {
       
     let rob2embed = new MessageEmbed()
     .setColor("BLUE")
-    .setDescription(`${s} **${usertag.user.username}** : You cant rob the Bot Dev LOL`);
+    .setDescription(`${s} **${usertag.user.username}** : You cant rob the Developer LOL`);
     return message.channel.send(rob2embed);
       //return message.channel.send(`You can't rob the bot devs lol.`);
     }
