@@ -6,11 +6,15 @@ module.exports.run = async (bot, message, args) => {
     const usertag = message.member;
     const random = 50000;
     const randoms = 75000;
+    let bigembed = new MessageEmbed()
+    .setAuthor(`Check Your DMs`)
+    .setColor("GREEN")
+    message.channel.send(bigembed).catch();
     let begembed = new MessageEmbed()
     .setAuthor(`**VOTE THE BOT TO GET 50000 COINS**`)
     .setColor("BLUE")
     .setDescription(`${i} **${usertag.user.username}** : [Vote Here](https://discordbotlist.com/bots/medu-wada-0478/upvote)\n**Get 25000 extra coins on voting next time from the** [Support Server](https://discord.gg/zyc9vDuWpD)`)
-    message.channel.send(begembed).catch();
+    message.author.send(begembed).catch();
 
     if (message.guild.id === '892416701851910144') {
     await bot.giveCoins(message.author.id, randoms);
