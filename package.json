@@ -14,7 +14,8 @@
       "node-superfetch": "^0.1.11",
       "pretty-ms": "^7.0.1",
       "random-puppy": "^1.1.0",
-      "request": "^2.88.2"
+      "request": "^2.88.2",
+      "canvas": "^1.4.1"
     },
     "devDependencies": {},
     "scripts": {
