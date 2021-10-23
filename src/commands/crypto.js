@@ -152,5 +152,5 @@ module.exports.config = {
     userPerms: [], // User permissions needed to run command. Leave empty if nothing.
     aliases: [], // Aliases 
     bankSpace: 2000, // Amount of bank space to give when command is used.
-    cooldown: 1800// Command Cooldown
+    cooldown: 900// Command Cooldown
 }

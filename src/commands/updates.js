@@ -23,6 +23,10 @@ Date : \`22/10/2021\`
 Date : \`22/10/2021\`
 
 1. Added the command \`do crypto\`.
+
+2. Reduced crypto mining time from 30 mins to 15 mins.
+
+3. Increased salary for \`work\` command.
 `)
     .setColor("BLUE")
     message.channel.send(Embed);
