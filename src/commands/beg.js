@@ -8,6 +8,13 @@ module.exports.run = async (bot, message, args) => {
     const randomMessage = [
         `**Elon Musk** has extra cash so gave you ${random.toLocaleString()} coins.`,
         `**Bill Gates** threw ${random.toLocaleString()} coins at you`,
+        `You were a part of **Mr Beast's** video and got ${random.toLocaleString()} coins after winning.`,
+        `You are asking me for money! Omg okay... take ${random.toLocaleString()} coins. Thats all I have I promise....`,
+        `Awwww... why are you sad :( take ${random.toLocaleString()} coins...`,
+        `Excuse me sir! wtf are you doing at the bank begging the cashier? **FINE!** take ${random.toLocaleString()} coins! Leave now...`,
+        `You sang a song and everyone loved it! They gave you ${random.toLocaleString()} coins. GREAT`,
+        `You sang a song and everybody hated it... They gave you ${random.toLocaleString()} coins out of pity tho lmao xD`,
+        `You begged your girlfriend to give you ${random.toLocaleString()} coins. Why did you beg money from your girlfriend bro?`,
         `A **Beggar** was asking for money but you begged from him and he gave you ${random.toLocaleString()} coins.`,
         `**Barack Obama** is cool so he gave you ${random.toLocaleString()} coins.`,
         `A Nice guy saw you and gave you ${random.toLocaleString()} coins.`,
