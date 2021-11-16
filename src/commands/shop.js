@@ -10,6 +10,7 @@ const bc = '🥉' // :HYDRA_BRONZE_COIN_GIF:
 const ht = '🏆' // :HYDRA_THROPHY:
 const hc = '🍀'
 const gpu = '<:gpu:893968988562923550>'
+const phone = '<:smartphone:910282661006827540>'
 
 const Discord = require("discord.js")
 module.exports.run = async (bot, message, args) => {
@@ -18,7 +19,7 @@ module.exports.run = async (bot, message, args) => {
 
   let pages = [
               `🍪 **Cookie - __50__** __coins__\n\`id: cookie\`\nUse to make you more fat \n${lock} **Padlock - __5__,__000__** __coins__\n\`id: padlock\`\nUse this to protect your money from thieves\n${gpu} **GPU - __50__,__000__** __coins__\n\`id: GPU\`\nUse this to mine cryptocurrency\n📜 **Bank Note - __13__,__000__** __coins__\n\`id: banknote\`\nUse this to increase your back capacity\n${hc} **Lucky Clover - __15__,__000__** __coins__\n\`id: luckyclover\`\nUse this to increase you chances of robbing`,
-              `${pistol} **Pistol - __20__,__000__** __coins__\n\`id: pistol\`\nUse this to go hunting\n${axe} **Axe - __30__,__000__** __coins__\n\`id: axe\`\nUse this to cut trees down!\n🎣 **Fishing Rod - __20__,__000__** __coins__\n\`id: fishingrod\`\nUse this to go fishing!\n${pick} **Pickaxe - __25__,__000__** __coins__\n\`id: pickaxe\`\nUse this to mine gems!`,
+              `${pistol} **Pistol - __20__,__000__** __coins__\n\`id: pistol\`\nUse this to go hunting\n${phone} **Phone - __5__,__000__** __coins__\n\`id: phone\`\nUse this to call the cops to protect your bank\n${axe} **Axe - __30__,__000__** __coins__\n\`id: axe\`\nUse this to cut trees down!\n🎣 **Fishing Rod - __20__,__000__** __coins__\n\`id: fishingrod\`\nUse this to go fishing!\n${pick} **Pickaxe - __25__,__000__** __coins__\n\`id: pickaxe\`\nUse this to mine gems!`,
               `${rc} **Medu Wada Super Coin - __100__,__000__,__000__** __coins__\n\`id: supercoin\`\n${gc} **Medu Wada Gold Coin - __50__,__000__,__000__** __coins__\n\`id: goldcoin\`\n${sc} **Medu Wada Silver Coin - __15__,__000__,__000__** __coins__\n\`id: silvercoin\`\n${bc} **Medu Wada Bronze Coin - __5__,__000__,__000__** __coins__\n\`id: bronzecoin\`\n${ht} **Medu Trophy - __100__,__000__,__000__** __coins__\n\`id: trophy\``
               ];
   let page = 1;

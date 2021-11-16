@@ -24,6 +24,7 @@ const eth = '<:eth:893969305497116723>'
 const medu = '<:medu:893975659725078609>'
 const bch = '<:bch:893974970064072744>'
 const gpu = '<:gpu:893968988562923550>'
+const phone = '<:smartphone:910282661006827540>'
 const array = [{
     name: 'cookie',
     description: '🍪 **Cookie**\nA tasty snack.',
@@ -50,6 +51,19 @@ const array = [{
     canBuy: true,
     displayOnShop: true,
     sellAmount: 2000,
+    price: 5000,
+    keep: true,
+    run: async (bot, message, args) => {
+
+    }
+},
+{
+    name: 'phone',
+    description: `${phone} **Phone**\nProtects your Bank from heists and robbers by calling the cops`,
+    canUse: false,
+    canBuy: true,
+    displayOnShop: true,
+    sellAmount: 500,
     price: 5000,
     keep: true,
     run: async (bot, message, args) => {
