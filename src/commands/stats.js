@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
     .setDescription(`${i} **Medu Wada** Live Stats :`)
     .addField(`**Servers :**`,` [** \`${bot.guilds.cache.size.toLocaleString()}\`** ]`)
     .addField(`**Users :**`,`[ **\`${message.client.guilds.cache.reduce((a, b) => a + b.memberCount, 0).toLocaleString()}\`**] `)
-    .addField(`**Links** :`, "[\`Support Server\`](https://discord.gg/zyc9vDuWpD) | [\`Invite Me\`](https://discord.com/oauth2/authorize?client_id=887067763158450216&scope=bot&permissions=2148002896) | [\`Vote For Me\`](https://discordbotlist.com/bots/medu-wada-0478/upvote) ")
+    .addField(`**Links** :`, "[\`Support Server\`](https://discord.gg/zyc9vDuWpD) | [\`Invite Me\`](https://discord.com/oauth2/authorize?client_id=911125451190206505&scope=bot&permissions=2148002896) | [\`Vote For Me\`](https://discordbotlist.com/bots/medu-wada-0478/upvote) ")
     .setThumbnail(bot.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
     .setColor("BLUE") //[\`s\`](https://docs.brandondev.xyz/)
     message.channel.send(Embed);

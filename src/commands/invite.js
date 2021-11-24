@@ -3,9 +3,9 @@ module.exports.run = async (bot, message, args) => {
     const InviteEmbed = new MessageEmbed()
 
         .setTitle(bot.user.tag)
-        .setFooter("\`[vote](https://top.gg/bot/808350130352554004/vote)\`")
+        .setFooter("\`[vote](https://discordbotlist.com/bots/medu-wada-0478/upvote)\`")
         .setDescription(`Medu Wada is a fun Economy bot with various Items and is easy to use. 
-    [Invite](https://discord.com/oauth2/authorize?client_id=887067763158450216&scope=bot&permissions=2148002896) Medu Wada to your server today!\nYou can also hangout in our [Discord Server](https://discord.gg/aj3hz97m5U)`)
+    [Invite](https://discord.com/oauth2/authorize?client_id=911125451190206505&scope=bot&permissions=2148002896) Medu Wada to your server today!\nYou can also hangout in our [Discord Server](https://discord.gg/aj3hz97m5U)`)
         .setThumbnail(bot.user.displayAvatarURL({ format: 'png', size: 256, dynamic: true }))
         .setColor('BLUE')
     message.channel.send(InviteEmbed)
